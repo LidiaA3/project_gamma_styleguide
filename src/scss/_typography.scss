@@ -1,14 +1,18 @@
 h1, h2, h3, h4, h5, h6 {
-    color: cadetblue;
+    color: var(--color-gray_dark);
     margin: 1rem 0;
 }
 
 h1 {
+    font-family: 'Alice';
     font-size: 3.2rem;
+    color: var(--color-pistacho);
 }
 
 h2 {
+    font-family: 'CutiveMono';
     font-size: 2.4rem;
+    color: var(--color-violet);
 }
 
 h3 {

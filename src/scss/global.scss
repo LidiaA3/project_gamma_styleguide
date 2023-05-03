@@ -1,6 +1,32 @@
 :root {
     --color-gray_darken: #1c1c1e;
+    --color-gray_dark: #9BAAAB;
+    --color-gray: #D2DADB;
     --color-gray_light: #f3f3f3;
+    --color-pistacho: #D4D941;
+    --color-violet: #9C6C91;
+    --color-purple: #4D1B41;
+}
+
+@font-face {
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/Alice-Regular.woff);
+}
+
+@font-face {
+    font-family: 'CutiveMono';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/CutiveMono-Regular.woff);
+}
+
+@font-face {
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/Imprima-Regular.woff);
 }
 
 html {
@@ -9,6 +35,7 @@ html {
 
 body {
     margin: 0;
+    font-family: 'Imprima';
     font-size: 1.5rem;
 }
 
