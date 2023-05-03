@@ -5,7 +5,7 @@ import Nav from "./StyNav"
 function Styleguide() {
 
     return (
-      <>
+      <div className='styleguide'>
         <h1>This is the Styleguide</h1>
         <Nav />
         <Button />
@@ -17,7 +17,7 @@ function Styleguide() {
           <h5>Así se ve un h5</h5>
           <h6>Así se ve un h6</h6>
         </div>
-      </>
+      </div>
     )
   }
   

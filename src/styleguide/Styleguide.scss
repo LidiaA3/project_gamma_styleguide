@@ -1,5 +1,48 @@
+.styleguide {
+    margin-left: 10rem;
+}
+
 .section {
     background-color: #f3f3f3;
     padding: 1rem;
     margin: 1rem 0;
+    display: inline-block;
+}
+
+.stynav {
+    background-color: var(--color-gray_darken);
+    color: var(--color-gray_light);
+    margin: 0;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 0 .5em .5em 0;
+    gap: 1rem;
+    width: 8rem;
+    height: calc(100vh - 3rem);
+    position: absolute;
+    inset: 0 auto 0 0;
+
+    &__item {
+        list-style-type: none;
+        padding: .5rem 1rem;
+    }
+
+    &__link {
+        color: inherit;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+    }
+}
+
+.styicon {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: var(--color-gray_light);
 }
