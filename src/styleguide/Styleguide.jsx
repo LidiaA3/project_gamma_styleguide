@@ -17,6 +17,42 @@ function Styleguide() {
           <h5>Así se ve un h5</h5>
           <h6>Así se ve un h6</h6>
         </div>
+
+        <div id="colors">
+          <div className='color__group'>
+            <div className="color__box">
+              <div className="color bg-gray_light"> </div>
+              <p>gray_light</p>
+            </div>
+            <div className="color__box">
+              <div className="color bg-gray"> </div>
+              <p>gray</p>
+            </div>
+            <div className="color__box">
+              <div className="color bg-gray_dark"> </div>
+              <p>gray_dark</p>
+            </div>
+            <div className="color__box">
+              <div className="color bg-gray_darken"> </div>
+              <p>gray_darken</p>
+            </div>
+          </div>
+
+          <div className='color__group'>
+            <div className="color__box">
+              <div className="color bg-pistacho"> </div>
+              <p>pistacho</p>
+            </div>
+            <div className="color__box">
+              <div className="color bg-violet"> </div>
+              <p>violet</p>
+            </div>
+            <div className="color__box">
+              <div className="color bg-purple"> </div>
+              <p>purple</p>
+            </div>
+          </div>
+        </div>
       </div>
     )
   }

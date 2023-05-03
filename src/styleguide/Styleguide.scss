@@ -1,3 +1,5 @@
+@import '../scss/variables';
+
 .styleguide {
     margin-left: 10rem;
 }
@@ -24,7 +26,7 @@
     gap: 1rem;
     width: 8rem;
     height: calc(100vh - 3rem);
-    position: absolute;
+    position: fixed;
     inset: 0 auto 0 0;
 
     &__item {
@@ -46,4 +48,51 @@
     width: 2.5rem;
     height: 2.5rem;
     fill: var(--color-gray_light);
+}
+
+.color {
+
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+
+    &__group {
+        display: flex;
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 2rem;
+        width: 10rem;
+        box-shadow: $box-shadow;
+        border-radius: .5em;
+    }
+}
+
+.bg-gray_light {
+    background-color: hsl($gray_light);
+}
+.bg-gray {
+    background-color: hsl($gray);
+}
+.bg-gray_dark {
+    background-color: hsl($gray_dark);
+}
+.bg-gray_darken {
+    background-color: hsl($gray_darken);
+}
+
+.bg-pistacho {
+    background-color: hsl($pistacho);
+}
+.bg-violet {
+    background-color: hsl($violet);
+}
+.bg-purple {
+    background-color: hsl($purple);
 }
