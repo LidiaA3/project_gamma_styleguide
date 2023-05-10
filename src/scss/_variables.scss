@@ -13,3 +13,13 @@ $box-shadow: 0 0 1rem 0 hsl($gray);
 $font_main: 'Imprima';
 $font_display: 'Alice';
 $font_mono: 'CutiveMono';
+
+$font_sizes: (
+    "small": 1.2,
+    "medium": 1.5,
+    "large": 1.8,
+    "x-large": 2,
+    "big": 2.4,
+    "x-big": 3,
+    "huge": 5.5
+);

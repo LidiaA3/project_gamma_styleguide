@@ -1,6 +1,8 @@
 @import 'font-family';
 @import 'variables';
+@import 'functions';
 @import 'typography';
+@import 'utilities';
 
 :root {
     --color-gray_darken: hsl(#{$gray_darken});
@@ -19,5 +21,6 @@ html {
 body {
     margin: 0;
     font-family: $font_main;
-    font-size: 1.5rem;
+    font-size: fs(medium);
+    color: var(--color-gray_darken);
 }

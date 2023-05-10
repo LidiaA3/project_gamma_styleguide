@@ -8,3 +8,20 @@ button,
     border-radius: .5em;
     cursor: pointer;
 }
+
+.btn--secondary {
+    color: var(--color-violet);
+    background-color: #ffffff;
+    border: .1em solid;
+}
+
+.btn--cta {
+    font-size: fs(x-large);
+    padding: 2rem 3rem;
+}
+
+/*Para borrar después*/
+
+.btn + .btn {
+    margin: 0 1rem;
+}
