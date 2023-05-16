@@ -8,14 +8,14 @@ h1,
 .h1 {
     font-family: $font_display;
     font-size: fs(x-big);
-    color: var(--color-pistacho);
+    color: var(--color-burdeos);
 }
 
 h2,
 .h2 {
     font-family: $font_mono;
     font-size: fs(big);
-    color: var(--color-violet);
+    color: var(--color-yellow);
 }
 
 h3,
@@ -40,6 +40,10 @@ h6,
 
 p {
     margin: 1rem 0;
+}
+
+.p-big {
+    font-size: fs(x-large);
 }
 
 small {

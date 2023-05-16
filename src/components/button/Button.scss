@@ -3,13 +3,13 @@
 
 button,
 .btn {
-    background-color: var(--color-violet);
+    background-color: var(--color-burdeos);
     font-family: $font_main;
     font-size: fs(medium);
     // min-width: 15rem;
     display: inline-block;
     padding: 1rem 2rem;
-    border: none;
+    border: .1em solid var(--color-burdeos_dark);
     color: white;
     border-radius: .5em;
     cursor: pointer;
@@ -18,9 +18,9 @@ button,
 }
 
 .btn--secondary {
-    color: var(--color-violet);
+    color: var(--color-burdeos);
     background-color: #ffffff;
-    border: .1em solid;
+    border-color: var(--color-burdeos);
 }
 
 .btn--cta {

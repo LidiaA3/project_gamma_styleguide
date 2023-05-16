@@ -9,9 +9,25 @@
     --color-gray_dark: hsl(#{$gray_dark});
     --color-gray: hsl(#{$gray});
     --color-gray_light: hsl(#{$gray_light});
-    --color-pistacho: hsl(#{$pistacho});
-    --color-violet: hsl(#{$violet});
-    --color-purple: hsl(#{$purple});
+    --color-gray_lighter: hsl(#{$gray_lighter});
+    
+    --color-yellow_darken: hsl(#{$yellow_darken});
+    --color-yellow_dark: hsl(#{$yellow_dark});
+    --color-yellow: hsl(#{$yellow});
+    --color-yellow_light: hsl(#{$yellow_light});
+    --color-yellow_lighter: hsl(#{$yellow_lighter});
+
+    --color-burdeos_darken: hsl(#{$burdeos_darken});
+    --color-burdeos_dark: hsl(#{$burdeos_dark});
+    --color-burdeos: hsl(#{$burdeos});
+    --color-burdeos_light: hsl(#{$burdeos_light});
+    --color-burdeos_lighter: hsl(#{$burdeos_lighter});
+
+    --color-cadet_blue_darken: hsl(#{$cadet_blue_darken});
+    --color-cadet_blue_dark: hsl(#{$cadet_blue_dark});
+    --color-cadet_blue: hsl(#{$cadet_blue});
+    --color-cadet_blue_light: hsl(#{$cadet_blue_light});
+    --color-cadet_blue_lighter: hsl(#{$cadet_blue_lighter});
 }
 
 html {

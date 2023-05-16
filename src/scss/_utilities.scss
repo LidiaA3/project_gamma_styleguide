@@ -1,49 +1,44 @@
-.color-gray_light {
-    color: hsl($gray_light);
-}
-.color-bg-gray_light {
-    background-color: hsl($gray_light);
+$color-list: (
+    'gray_darken': $gray_darken,
+    'gray_dark': $gray_dark,
+    'gray': $gray,
+    'gray_light': $gray_light,
+    'gray_lighter': $gray_lighter,
+    'yellow_darken': $yellow_darken,
+    'yellow_dark': $yellow_dark,
+    'yellow': $yellow,
+    'yellow_light': $yellow_light,
+    'yellow_lighter': $yellow_lighter,
+    'burdeos_darken': $burdeos_darken,
+    'burdeos_dark': $burdeos_dark,
+    'burdeos': $burdeos,
+    'burdeos_light': $burdeos_light,
+    'burdeos_lighter': $burdeos_lighter,
+    'cadet_blue_darken': $cadet_blue_darken,
+    'cadet_blue_dark': $cadet_blue_dark,
+    'cadet_blue': $cadet_blue,
+    'cadet_blue_light': $cadet_blue_light,
+    'cadet_blue_lighter': $cadet_blue_lighter
+);
+
+@each $key, $value in $color-list {
+    .color-#{$key} {
+        color: hsl($value);
+    }
+    
+    .color-bg-#{$key} {
+        background-color: hsl($value);
+    }
 }
 
-.color-gray {
-    color: hsl($gray);
-}
-.color-bg-gray {
-    background-color: hsl($gray);
+.font-family-mono {
+    font-family: $font_mono;
 }
 
-.color-gray_dark {
-    color: hsl($gray_dark);
-}
-.color-bg-gray_dark {
-    background-color: hsl($gray_dark);
+.font-family-main {
+    font-family: $font_main;
 }
 
-.color-gray_darken {
-    color: hsl($gray_darken);
-}
-.color-bg-gray_darken {
-    background-color: hsl($gray_darken);
-}
-
-
-.color-pistacho {
-    color: hsl($pistacho);
-}
-.color-bg-pistacho {
-    background-color: hsl($pistacho);
-}
-
-.color-violet {
-    color: hsl($violet);
-}
-.color-bg-violet {
-    background-color: hsl($violet);
-}
-
-.color-purple {
-    color: hsl($purple);
-}
-.color-bg-purple {
-    background-color: hsl($purple);
+.font-family-display {
+    font-family: $font_display;
 }

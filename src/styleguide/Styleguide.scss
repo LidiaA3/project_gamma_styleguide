@@ -1,14 +1,24 @@
 @import '../scss/variables';
+@import '../scss/functions';
 
 .styleguide {
-    margin-left: 10rem;
+    margin-left: 8rem;
+    padding: 2rem;
+
+    & article {
+        padding: 2rem 0;
+    }
 }
 
-.section {
-    background-color: #f3f3f3;
+.styHeader {
+    width: calc(100% - 8rem);
+}
+
+.stySection {
+    background-color: var(--color-gray_lighter);
     padding: 1rem 2rem;
     margin: 1rem 0;
-    width: 50rem;
+    width: 100%;
     border-radius: .5em;
 }
 
@@ -50,26 +60,67 @@
     fill: var(--color-gray_light);
 }
 
-.color {
+.colorSection {
 
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
 
-    &__group {
-        display: flex;
-        gap: 2rem;
-        margin: 2rem 0;
+.fontSection {
+    display: flex;
+    gap: 1rem;
+}
+
+.styColorCard {
+    border-radius: .5em;
+    overflow: hidden;
+    box-shadow: $box-shadow;
+
+    &__color {
+        height: 5rem;
     }
 
-    &__box {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    &__contents {
         padding: 1rem 2rem;
-        width: 10rem;
-        box-shadow: $box-shadow;
-        border-radius: .5em;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        fill: var(--color-gray_darken);
+    }
+
+    &__tittle {
+        font-family: $font_display;
+        color: var(--color-gray_darken);
+    }
+
+    &__icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    &__text {
+        font-size: fs(small);
+        margin: 0;
+    }
+}
+
+.styTypoCard {
+    border-radius: .5em;
+    overflow: hidden;
+    box-shadow: $box-shadow;
+    width: 10rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__typo {
+        font-size: 10rem;
     }
 }
