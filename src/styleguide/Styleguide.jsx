@@ -31,8 +31,11 @@ function Styleguide() {
 
     return (
       <>
-      <Header className="styHeader" />
       <div className='styleguide'>
+        <div className="header">
+            <h1 className="header__tittle">Styleguide</h1>
+            <h2 className="header__subtittle">&lt; portfolio's Lidia /&gt;</h2>
+        </div>
         <Nav />
 
         <article id="colors">
