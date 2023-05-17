@@ -39,3 +39,32 @@ $font_sizes: (
     "x-big": 3,
     "huge": 5.5
 );
+
+$color-list: (
+    'gray_darken': $gray_darken,
+    'gray_dark': $gray_dark,
+    'gray': $gray,
+    'gray_light': $gray_light,
+    'gray_lighter': $gray_lighter,
+    'yellow_darken': $yellow_darken,
+    'yellow_dark': $yellow_dark,
+    'yellow': $yellow,
+    'yellow_light': $yellow_light,
+    'yellow_lighter': $yellow_lighter,
+    'burdeos_darken': $burdeos_darken,
+    'burdeos_dark': $burdeos_dark,
+    'burdeos': $burdeos,
+    'burdeos_light': $burdeos_light,
+    'burdeos_lighter': $burdeos_lighter,
+    'cadet_blue_darken': $cadet_blue_darken,
+    'cadet_blue_dark': $cadet_blue_dark,
+    'cadet_blue': $cadet_blue,
+    'cadet_blue_light': $cadet_blue_light,
+    'cadet_blue_lighter': $cadet_blue_lighter
+);
+
+$font-list: (
+    'font-family-main': $font_main,
+    'font-family-display': $font_display,
+    'font-family-mono': $font_mono
+);

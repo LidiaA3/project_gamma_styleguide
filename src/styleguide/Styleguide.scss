@@ -1,5 +1,6 @@
 @import '../scss/variables';
 @import '../scss/functions';
+@import '../scss/grid';
 
 .styleguide {
     margin-left: 8rem;
@@ -60,7 +61,7 @@
 
     border-radius: 50%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr;
     gap: 1rem;
 }
 
@@ -80,6 +81,7 @@
 
     &__contents {
         padding: 1rem 2rem;
+        flex: 1;
     }
 
     &__header {
@@ -118,5 +120,29 @@
 
     &__typo {
         font-size: 10rem;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .colorSection {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media all and (min-width: 800px) {
+    .colorSection {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .colorSection {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .colorSection {
+        grid-template-columns: repeat(5, 1fr);
     }
 }

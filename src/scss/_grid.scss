@@ -1,0 +1,21 @@
+$grid: 12;
+$gap: 1rem;
+$grid-margin: $gap;
+
+.grid {
+  display: flex;
+  width: 100%;
+  gap: $gap;
+  margin-bottom: $grid-margin;
+}
+
+@for $i from 1 through $grid {
+    .grid__item--#{$i} {
+        flex: 0 0 calc(($i / $grid * 100%) - $gap);
+    }
+}
+
+[class^="grid__item--"] {
+    height: 50px;
+    background-color: var(--color-gray_light);
+}
