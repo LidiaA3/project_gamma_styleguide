@@ -2,6 +2,7 @@
 @import 'variables';
 @import 'functions';
 @import 'typography';
+@import 'links';
 @import 'utilities';
 
 :root {
@@ -39,4 +40,13 @@ body {
     font-family: $font_main;
     font-size: fs(medium);
     color: var(--color-gray_darken);
+}
+
+main {
+    padding: 2rem;
+}
+
+.section {
+    display: flex;
+    gap: 1rem;
 }

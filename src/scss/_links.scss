@@ -1,0 +1,7 @@
+a, .link {
+    color: var(--color-yellow);
+
+    &:hover {
+        color: var(--color-yellow_darken);
+    }
+}
