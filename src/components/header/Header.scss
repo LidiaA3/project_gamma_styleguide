@@ -1,3 +1,6 @@
+@import '../../scss/variables';
+@import '../../scss/functions';
+
 .header {
     display: flex;
     flex-direction: column;
@@ -5,15 +8,30 @@
     align-items: center;
     padding: 5rem 2rem;
     background-color: var(--color-gray_lighter);
+    text-align: center;
 
     &__tittle {
-        font-size: 5rem;
+        font-size: fs(huge);
         margin: 0;
     }
 
     &__subtittle {
-        font-size: 2rem;
+        font-size: fs(x-large);
         margin: 0;
         color: var(--color-cadet_blue_lighter);
+    }
+}
+
+@media all and (min-width: 600px) {
+    .header {
+        padding: 8rem 2rem;
+
+        &__tittle {
+            font-size: fs(x-huge);
+        }
+
+        &__subtittle {
+            font-size: fs(x-big);
+        }
     }
 }

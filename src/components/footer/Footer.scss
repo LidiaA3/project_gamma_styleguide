@@ -7,4 +7,22 @@ footer, .footer {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+
+    &__rrss {
+        fill: var(--color-gray_lighter);
+        display: flex;
+        gap: 1rem;
+    }
+
+    &__copy {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        fill: var(--color-gray_lighter);
+
+        & svg {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
 }
