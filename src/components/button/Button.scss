@@ -4,28 +4,81 @@
 button,
 .btn {
     background-color: var(--color-burdeos);
+    color: var(--color-gray_lighter);
+    fill: var(--color-gray_lighter);
+    border: .1em solid var(--color-burdeos_dark);
+    border-radius: .5em;
     font-family: $font_main;
     font-size: fs(medium);
-    // min-width: 15rem;
-    display: inline-block;
-    padding: 1rem 2rem;
-    border: .1em solid var(--color-burdeos_dark);
-    color: white;
-    border-radius: .5em;
-    cursor: pointer;
     text-decoration: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 1rem 2rem;
+    cursor: pointer;
+
+    & svg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    &:hover {
+        background-color: var(--color-burdeos_dark);
+        border-color: var(--color-burdeos_darken);
+    }
+
+    &:disabled {
+        background-color: var(--color-gray_light);
+        border-color: var(--color-gray);
+        cursor: not-allowed;
+    }
 }
 
-.btn--secondary {
-    color: var(--color-burdeos);
-    background-color: #ffffff;
-    border-color: var(--color-burdeos);
-}
+.btn {
+    &--secondary {
+        color: var(--color-burdeos);
+        border-color: var(--color-burdeos);
+        background-color: transparent;
 
-.btn--cta {
-    font-size: 12px;
-    padding: 2rem 3rem;
+        &:hover {
+            background-color: var(--color-gray_lighter);
+        }
+
+        &:disabled {
+            border-color: var(--color-gray_light);
+            background-color: transparent;
+            color: var(--color-gray_light);
+            fill: var(--color-gray_light);
+        }
+    }
+
+    &--small {
+        font-size: fs(small);
+        padding: .5rem 1rem;
+        gap: .5rem;
+
+        & svg {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+
+    &--big {
+        padding: 1.5rem 3rem;
+    }
+
+    &--x-big {
+        font-size: fs(x-large);
+        padding: 2rem 3.5rem;
+        gap: 1.5rem;
+
+        & svg {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
 }
 
 /*Para borrar después*/
