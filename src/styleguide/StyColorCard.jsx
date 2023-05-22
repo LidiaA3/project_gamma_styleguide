@@ -1,5 +1,5 @@
 import CopyToClipboard from "react-copy-to-clipboard";
-import IconCopy from "../components/icons/IconCopy";
+import IconCopy from "./icons/IconCopy";
 
 // title || text || hexcode
 

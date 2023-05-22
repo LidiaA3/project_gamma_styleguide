@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import IconHome from "../components/icons/IconHome";
-import IconColors from "../components/icons/IconColors";
-import IconFontFamily from "../components/icons/IconFontFamily";
-import IconTypo from "../components/icons/IconTypo";
-import IconButtons from "../components/icons/IconButtons";
-import IconForms from "../components/icons/IconForms";
-import IconGrid from "../components/icons/IconGrid";
+import IconHome from "./icons/IconHome";
+import IconColors from "./icons/IconColors";
+import IconFontFamily from "./icons/IconFontFamily";
+import IconTypo from "./icons/IconTypo";
+import IconButtons from "./icons/IconButtons";
+import IconForms from "./icons/IconForms";
+import IconGrid from "./icons/IconGrid";
+
 
 function StyNav() {
     return (
