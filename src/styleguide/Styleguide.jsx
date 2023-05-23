@@ -3,6 +3,8 @@ import Header from '../components/header/Header'
 import Nav from "./StyNav"
 import Button from '../components/button/Button'
 import StyColorCard from './StyColorCard'
+import IconEmail from '../components/icons/IconEmail'
+import { Link } from 'react-router-dom'
 
 function Styleguide() {
 
@@ -79,12 +81,25 @@ function Styleguide() {
             <p className='p-big'>This is a big paragraph</p>
             <p>This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequatur ad odit ea asperiores laudantium rem optio nostrum officiis totam, et a. Molestiae suscipit maiores nostrum saepe soluta exercitationem repellat.</p>
             <small>This is an small</small>
+
+            <ul className='list'>
+              <li className="list__item">Design</li>
+              <li className="list__item">About</li>
+              <li className="list__item">Frontend</li>
+            </ul>
           </div>
         </article>
         
         <article id='buttons'>
           <h3>Buttons and Links</h3>
-          <Button />
+          <Button text='Prueba' icon={<IconEmail/>} type='secondary' size='small' status='disable' />
+          <Button text='Prueba' icon={<IconEmail/>} type='primary' size='small' status='disable' />
+          <Button text='Prueba' icon={<IconEmail/>} size='small' />
+          <Button text='Prueba' icon={<IconEmail/>} size='small' type='secondary' /> 
+          <Button icon={<IconEmail/>} handleClick={() => console.log('You are going on')}/> 
+
+          <Link className='btn linkAsBtn btn--small'><IconEmail/>Prueba link</Link>
+          <Link className='btn linkAsBtn btn--secondary'><IconEmail/>Prueba link</Link>
         </article>
 
         <article id='grid'>

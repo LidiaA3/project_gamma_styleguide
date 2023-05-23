@@ -42,8 +42,12 @@ button,
         border-color: var(--color-burdeos);
         background-color: transparent;
 
+        & svg {
+            fill: var(--color-burdeos);
+        }
+
         &:hover {
-            background-color: var(--color-gray_lighter);
+            background-color: var(--color-gray_light);
         }
 
         &:disabled {
@@ -51,6 +55,10 @@ button,
             background-color: transparent;
             color: var(--color-gray_light);
             fill: var(--color-gray_light);
+
+            & svg {
+                fill: var(--color-gray_light);
+            }
         }
     }
 
@@ -81,9 +89,17 @@ button,
     }
 }
 
-/*Para borrar después*/
+.linkAsBtn {
+    // display: inline-flex;
+    width: fit-content;
 
-.btn + .btn,
-button + button {
-    margin: 2rem 1rem;
+    &:hover {
+        color: var(--color-gray_lighter);
+    }
+
+    &.btn--secondary {
+        &:hover {
+            color: var(--color-burdeos);
+        }
+    }
 }

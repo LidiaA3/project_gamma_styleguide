@@ -1,0 +1,15 @@
+.list {
+    list-style: none;
+    padding: 0;
+    
+    &__item {
+        display: flex;
+        gap: .5rem;
+
+        &::before {
+            content: url(../components/icons/IconFeature.svg);
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+}
