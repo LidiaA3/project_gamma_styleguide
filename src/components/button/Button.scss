@@ -5,7 +5,6 @@ button,
 .btn {
     background-color: var(--color-burdeos);
     color: var(--color-gray_lighter);
-    fill: var(--color-gray_lighter);
     border: .1em solid var(--color-burdeos_dark);
     border-radius: .5em;
     font-family: $font_main;
@@ -42,10 +41,6 @@ button,
         border-color: var(--color-burdeos);
         background-color: transparent;
 
-        & svg {
-            fill: var(--color-burdeos);
-        }
-
         &:hover {
             background-color: var(--color-gray_light);
         }
@@ -54,11 +49,6 @@ button,
             border-color: var(--color-gray_light);
             background-color: transparent;
             color: var(--color-gray_light);
-            fill: var(--color-gray_light);
-
-            & svg {
-                fill: var(--color-gray_light);
-            }
         }
     }
 

@@ -42,6 +42,7 @@ function Styleguide() {
 
         <article id="colors">
           <h3>Color palette</h3>
+          <p>To use the color in scss <code>var(--color-burdeos_light)</code>. For use it as class <code>color-burdeos_light | color-bg-burdeos_light</code></p>
           <section className='colorSection'>
             {colorArray.map((color) => {
               return <StyColorCard key={color.code} title={color.name} text={color.text} hexcode={color.code} />
@@ -51,6 +52,7 @@ function Styleguide() {
 
         <article id="font-family">
           <h3>Font family</h3>
+          <p>To use the fonts in scss <code>$font_display | $font_mono | $font_main</code>. For use it as class <code>font-family-$font</code></p>
           <section className="fontSection">
             <div className="styTypoCard font-family-display">
               <span className="styTypoCard__typo">A</span>
@@ -72,16 +74,17 @@ function Styleguide() {
         <article id='typography'>
           <h3>Typographic hierarchy</h3>
           <div className="stySection">
-            <h1>Así se ve un h1</h1>
-            <h2>Así se ve un h2</h2>
-            <h3>Así se ve un h3</h3>
-            <h4>Así se ve un h4</h4>
-            <h5>Así se ve un h5</h5>
-            <h6>Así se ve un h6</h6>
-            <p className='p-big'>This is a big paragraph</p>
+            <h1>Here is an h1</h1>
+            <h2>Here is an h2</h2>
+            <h3>Here is an h3</h3>
+            <h4>Here is an h4</h4>
+            <h5>Here is an h5</h5>
+            <h6>Here is an h6</h6>
+            <p className='p-big'>This is a big paragraph <code>className='p-big'</code></p>
             <p>This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequatur ad odit ea asperiores laudantium rem optio nostrum officiis totam, et a. Molestiae suscipit maiores nostrum saepe soluta exercitationem repellat.</p>
             <small>This is an small</small>
 
+            <p className='p-big'>This is a list <code>className='list' & className='list__item'</code></p>
             <ul className='list'>
               <li className="list__item">Design</li>
               <li className="list__item">About</li>
@@ -92,18 +95,48 @@ function Styleguide() {
         
         <article id='buttons'>
           <h3>Buttons and Links</h3>
-          <Button text='Prueba' icon={<IconEmail/>} type='secondary' size='small' status='disable' />
-          <Button text='Prueba' icon={<IconEmail/>} type='primary' size='small' status='disable' />
-          <Button text='Prueba' icon={<IconEmail/>} size='small' />
-          <Button text='Prueba' icon={<IconEmail/>} size='small' type='secondary' /> 
-          <Button icon={<IconEmail/>} handleClick={() => console.log('You are going on')}/> 
-
-          <Link className='btn linkAsBtn btn--small'><IconEmail/>Prueba link</Link>
-          <Link className='btn linkAsBtn btn--secondary'><IconEmail/>Prueba link</Link>
+          <section className="stySection">
+            <p>Attibutes for buttons <code>className='btn' type=''|'secondary' status=''|'disable'</code></p>
+            <div className="stySection__item">
+              <p>Buttons <code>size='x-big'</code></p>
+              <Button text='Email' icon={<IconEmail/>} type='primary' size='x-big' />
+              <Button text='Email' icon={<IconEmail/>} type='secondary' size='x-big' />
+              <Button text='Email' icon={<IconEmail/>} type='primary' size='x-big' status='disable' />
+              <Button text='Email' icon={<IconEmail/>} type='secondary' size='x-big' status='disable' />
+            </div>
+            <div className="stySection__item">
+              <p>Buttons <code>size='big'</code></p>
+              <Button text='Email' icon={<IconEmail/>} type='primary' size='big' />
+              <Button text='Email' icon={<IconEmail/>} type='secondary' size='big' />
+              <Button text='Email' icon={<IconEmail/>} type='primary' size='big' status='disable' />
+              <Button text='Email' icon={<IconEmail/>} type='secondary' size='big' status='disable' />
+            </div>
+            <div className="stySection__item">
+              <p>Buttons <code>size=''</code></p>
+              <Button text='Email' icon={<IconEmail/>} type='primary' size='' />
+              <Button text='Email' icon={<IconEmail/>} type='secondary' size='' />
+              <Button text='Email' icon={<IconEmail/>} type='primary' size='' status='disable' />
+              <Button text='Email' icon={<IconEmail/>} type='secondary' size='' status='disable' />
+            </div>
+            <div className="stySection__item">
+              <p>Buttons <code>size='small'</code></p>
+              <Button text='Email' icon={<IconEmail/>} type='primary' size='small' />
+              <Button text='Email' icon={<IconEmail/>} type='secondary' size='small' />
+              <Button text='Email' icon={<IconEmail/>} type='primary' size='small' status='disable' />
+              <Button text='Email' icon={<IconEmail/>} type='secondary' size='small' status='disable' />
+            </div>
+            <p>Links <code>className='btn linkAsBtn'</code> for size <code>btn--$size</code> if secondary <code>btn--secondary</code></p>
+            <div className="stySection__item">
+              <Link className='btn linkAsBtn btn--small'><IconEmail/>Email link</Link>
+              <Link className='btn linkAsBtn btn--secondary'><IconEmail/>Email link</Link>
+            </div>
+            <p>Parameters for buttons <code>text | icon | type | size | status | handleClick</code></p>
+          </section>
         </article>
 
         <article id='grid'>
           <h3>Grid structure</h3>
+          <p>Determine a container width <code>className='grid'</code>. Each item goes with <code>className='grid__item--$number'</code>. Each number corresponds to 1fr. Total of grid container 12fr.</p>
           <div className="grid">
             <div className="grid__item--1"></div>
             <div className="grid__item--1"></div>

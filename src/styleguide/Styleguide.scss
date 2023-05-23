@@ -17,6 +17,20 @@
     margin: 1rem 0;
     width: 100%;
     border-radius: .5em;
+
+    &__item {
+        display: flex;
+        gap: 1rem;
+        margin: .5rem 0;
+    }
+}
+
+code {
+    background-color: var(--color-yellow_lighter);
+    font-family: $font_mono;
+    padding: 0 .5rem;
+    border: .1em solid var(--color-yellow_light);
+    border-radius: .2em;
 }
 
 .stynav {
@@ -54,11 +68,9 @@
 .styicon {
     width: 2.5rem;
     height: 2.5rem;
-    fill: var(--color-gray_light);
 }
 
 .colorSection {
-
     border-radius: 50%;
     display: grid;
     grid-template-columns: 1fr;
@@ -67,6 +79,7 @@
 
 .fontSection {
     display: flex;
+    flex-direction: column;
     gap: 1rem;
 }
 
@@ -88,7 +101,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        fill: var(--color-gray_darken);
     }
 
     &__tittle {
@@ -126,6 +138,9 @@
 @media all and (min-width: 600px) {
     .colorSection {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .fontSection {
+        flex-direction: row;
     }
 }
 
