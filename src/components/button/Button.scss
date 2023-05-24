@@ -77,11 +77,23 @@ button,
             height: 2.5rem;
         }
     }
+
+    &--display {
+        padding: 1.5rem 3rem;
+        flex-direction: column;
+        font-size: fs(x-large);
+        min-height: calc(14.5rem - 3rem - .2em);
+
+        & svg {
+            width: 6.4rem;
+            height: 6.4rem;
+        }
+    }
 }
 
 .linkAsBtn {
-    // display: inline-flex;
-    width: fit-content;
+    display: inline-flex;
+    //width: fit-content;
 
     &:hover {
         color: var(--color-gray_lighter);

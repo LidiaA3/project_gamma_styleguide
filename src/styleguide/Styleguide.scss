@@ -11,6 +11,18 @@
     }
 }
 
+.styheader {
+    border-radius: .5em;
+}
+
+.stytittle {
+    font-size: fs(x-big);
+}
+
+.stysubtittle {
+    font-size: fs(medium);
+}
+
 .stySection {
     background-color: var(--color-gray_lighter);
     padding: 1rem 2rem;
@@ -27,10 +39,11 @@
 }
 
 code {
-    background-color: var(--color-yellow_lighter);
+    background-color: var(--color-gray_light);
+    font-size: fs(medium);
     font-family: $font_mono;
     padding: 0 .5rem;
-    border: .1em solid var(--color-yellow_light);
+    border: .05em solid var(--color-gray);
     border-radius: .2em;
     word-wrap: break-word;
 }
@@ -138,6 +151,14 @@ code {
 }
 
 @media all and (min-width: 600px) {
+    .stytittle {
+        font-size: fs(huge);
+    }
+    
+    .stysubtittle {
+        font-size: fs(x-large);
+    }
+    
     .colorSection {
         grid-template-columns: repeat(2, 1fr);
     }

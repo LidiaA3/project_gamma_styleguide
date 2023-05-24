@@ -14,13 +14,14 @@ h1,
 h2,
 .h2 {
     font-family: $font_mono;
-    font-size: fs(big);
+    font-size: fs(x-big);
     color: var(--color-yellow_dark);
 }
 
 h3,
 .h3 {
-    font-size: fs(big);
+    font-size: fs(x-big);
+    color: var(--color-yellow_dark);
 }
 
 h4,

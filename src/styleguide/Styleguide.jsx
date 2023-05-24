@@ -34,9 +34,9 @@ function Styleguide() {
     return (
       <>
       <div className='styleguide'>
-        <div className="header">
-            <h1 className="header__tittle">Styleguide</h1>
-            <h2 className="header__subtittle">&lt; portfolio's Lidia /&gt;</h2>
+        <div className="header styheader">
+            <h1 className="header__tittle stytittle">Styleguide</h1>
+            <h2 className="header__subtittle stysubtittle">&lt; portfolio's Lidia /&gt;</h2>
         </div>
         <Nav />
 
@@ -136,7 +136,7 @@ function Styleguide() {
 
         <article id='grid'>
           <h3>Grid structure</h3>
-          <p>Determine a container width <code>className='grid'</code>. Each item goes with <code>className='grid__item--$number'</code>. Each number corresponds to 1fr. Total of grid container 12fr.</p>
+          <p>Determine a container with <code>className='grid'</code>. Each item goes with <code>className='grid__item--$number'</code>. Each number corresponds to 1fr. Total of grid container 12fr.</p>
           <div className="grid">
             <div className="grid__item--1"></div>
             <div className="grid__item--1"></div>
