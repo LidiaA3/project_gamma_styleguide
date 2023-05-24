@@ -2,19 +2,19 @@
     font-family: 'Alice';
     font-style: normal;
     font-weight: 400;
-    src: url(/fonts/Alice-Regular.woff);
+    src: url('/fonts/alice-regular-webfont.woff2') format('woff2'), url('/fonts/alice-regular-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'CutiveMono';
     font-style: normal;
     font-weight: 400;
-    src: url(/fonts/CutiveMono-Regular.woff);
+    src: url('/fonts/cutivemono-regular-webfont.woff2') format('woff2'), url('/fonts/cutivemono-regular-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Imprima';
     font-style: normal;
     font-weight: 400;
-    src: url(/fonts/Imprima-Regular.woff);
+    src: url('/fonts/imprima-regular-webfont.woff2') format('woff2'), url('/fonts/imprima-regular-webfont.woff') format('woff');
 }
