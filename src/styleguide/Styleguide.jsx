@@ -1,10 +1,8 @@
 import './Styleguide.scss'
-import Header from '../components/header/Header'
-import Nav from "./StyNav"
+import StyNav from "./StyNav"
 import Button from '../components/button/Button'
 import StyColorCard from './StyColorCard'
 import IconEmail from '../components/icons/IconEmail'
-import { Link } from 'react-router-dom'
 
 function Styleguide() {
 
@@ -38,7 +36,7 @@ function Styleguide() {
             <h1 className="header__tittle stytittle">Styleguide</h1>
             <h2 className="header__subtittle stysubtittle">&lt; portfolio's Lidia /&gt;</h2>
         </div>
-        <Nav />
+        <StyNav />
 
         <article id="colors">
           <h3>Color palette</h3>
@@ -96,41 +94,42 @@ function Styleguide() {
         <article id='buttons'>
           <h3>Buttons and Links</h3>
           <section className="stySection">
-            <p>Attibutes for buttons <code>className='btn' type=''|'secondary' status=''|'disable'</code></p>
+            <p>General attributes <code>type=''|'secondary' status=''|'disable' isLink=true|false</code></p>
             <div className="stySection__item">
-              <p>Buttons <code>size='x-big'</code></p>
+              <p>Others <code>size='x-big'</code></p>
               <Button text='Email' icon={<IconEmail/>} type='primary' size='x-big' />
               <Button text='Email' icon={<IconEmail/>} type='secondary' size='x-big' />
               <Button text='Email' icon={<IconEmail/>} type='primary' size='x-big' status='disable' />
               <Button text='Email' icon={<IconEmail/>} type='secondary' size='x-big' status='disable' />
             </div>
             <div className="stySection__item">
-              <p>Buttons <code>size='big'</code></p>
+              <p>Others <code>size='big'</code></p>
               <Button text='Email' icon={<IconEmail/>} type='primary' size='big' />
               <Button text='Email' icon={<IconEmail/>} type='secondary' size='big' />
               <Button text='Email' icon={<IconEmail/>} type='primary' size='big' status='disable' />
               <Button text='Email' icon={<IconEmail/>} type='secondary' size='big' status='disable' />
             </div>
             <div className="stySection__item">
-              <p>Buttons <code>size=''</code></p>
+              <p>Others <code>size=''</code></p>
               <Button text='Email' icon={<IconEmail/>} type='primary' size='' />
               <Button text='Email' icon={<IconEmail/>} type='secondary' size='' />
               <Button text='Email' icon={<IconEmail/>} type='primary' size='' status='disable' />
               <Button text='Email' icon={<IconEmail/>} type='secondary' size='' status='disable' />
             </div>
             <div className="stySection__item">
-              <p>Buttons <code>size='small'</code></p>
+              <p>Others <code>size='small'</code></p>
               <Button text='Email' icon={<IconEmail/>} type='primary' size='small' />
               <Button text='Email' icon={<IconEmail/>} type='secondary' size='small' />
               <Button text='Email' icon={<IconEmail/>} type='primary' size='small' status='disable' />
               <Button text='Email' icon={<IconEmail/>} type='secondary' size='small' status='disable' />
             </div>
-            <p>Links <code>className='btn linkAsBtn'</code> for size <code>btn--$size</code> if secondary <code>btn--secondary</code></p>
+            <p>Links <code>isLink=true</code> for size <code>btn--$size</code> if secondary <code>type='secondary'</code></p>
             <div className="stySection__item">
-              <Link className='btn linkAsBtn btn--small'><IconEmail/>Email link</Link>
-              <Link className='btn linkAsBtn btn--secondary'><IconEmail/>Email link</Link>
+              <Button text='Email link' icon={<IconEmail/>} type='primary' size='small' />
+              <Button text='Email link' icon={<IconEmail/>} type='secondary' />
             </div>
             <p>Parameters for buttons <code>text | icon | type | size | status | handleClick</code></p>
+            <p>Parameters for links <code>text | icon | type | size | isLink | goTo</code></p>
           </section>
         </article>
 
