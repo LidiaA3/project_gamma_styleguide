@@ -11,7 +11,7 @@ function StyColorCard (props) {
                 <div className="styColorCard__contents">
                     <div className="styColorCard__header">
                         <h6 className="styColorCard__tittle">{props.title}</h6>
-                        <CopyToClipboard text={props.title}>
+                        <CopyToClipboard text={props.title} style={{cursor:'pointer'}}>
                             <span className='styColorCard__icon'><IconCopy /></span>
                         </CopyToClipboard>
                     </div>

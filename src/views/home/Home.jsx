@@ -10,9 +10,13 @@ import PIconTictactoe from "../../components/icons/PIconTictactoe"
 import PIconTodoapp from "../../components/icons/PIconTodoapp"
 import PIconGuessword from "../../components/icons/PIconGuessword"
 import PIconLoginshop from "../../components/icons/PIconLoginshop"
+import { useContext } from "react"
+import { ContentsContext } from "../../App"
 
 
 function Home() {
+
+  const projects = useContext(ContentsContext).myprojects;
 
     return (
       <>
@@ -31,12 +35,9 @@ function Home() {
           <section className="section">
             <h3>Proyectos frontend</h3>
             <div className="displayGrid">
-              <Button isLink={true} goTo='/proyect' text='contact book' icon={<PIconContactbook />} type='secondary' size='display' />
-              <Button isLink={true} goTo='/proyect' text='rock paper scissors' icon={<PIconRockpaperscissors />} type='secondary' size='display' />
-              <Button isLink={true} goTo='/proyect' text='tic tac toe' icon={<PIconTictactoe />} type='secondary' size='display' />
-              <Button isLink={true} goTo='/proyect' text='to do app' icon={<PIconTodoapp />} type='secondary' size='display' />
-              <Button isLink={true} goTo='/proyect' text='guess the word' icon={<PIconGuessword />} type='secondary' size='display' />
-              <Button isLink={true} goTo='/proyect' text='login shop' icon={<PIconLoginshop />} type='secondary' size='display' />
+              {projects.map((item) => {
+                return <Button isLink={true} goTo={`/proyect/${item.id}`} text={item.tittle.toLowerCase()} icon={item.icon} type='secondary' size='display' key={item.id} />
+              })}
             </div>
           </section>
           <section className="section">

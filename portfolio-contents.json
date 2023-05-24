@@ -1,14 +1,99 @@
 [
     {
-        "tittle": "Título de proyecto",
-        "subtittle": "subtítulo llamativo de proyecto",
-        "image": "/rutaimagen.webp",
-        "icon": "PIconnombre",
-        "src": "nombre",
+        "tittle": "Contact Book",
+        "subtittle": "Todos los contactos al alcance de un click",
+        "image": "/contactbook_mockup.webp",
+        "icon": "PIconContactbook",
+        "id": "contactbook",
         "description": "Large text",
         "links": {
-            "code": "github link",
-            "demo": "netlify link"
+            "code": "https://github.com/LidiaA3/contact_book",
+            "demo": "https://lidiaa3contactbook.netlify.app/"
+        },
+        "features": [
+            "One",
+            "Two",
+            "Three"
+        ]
+    },
+    {
+        "tittle": "Rock Paper Scissors",
+        "subtittle": "¿Serás capaz de vencer a tu adversario?",
+        "image": "/rockpaperscissors_mockup.webp",
+        "icon": "PIconRockpaperscissors",
+        "id": "rockpaperscissors",
+        "description": "Large text",
+        "links": {
+            "code": "https://github.com/LidiaA3/rockpaperscissors",
+            "demo": "https://lidiaa3rockpaperscissors.netlify.app/"
+        },
+        "features": [
+            "One",
+            "Two",
+            "Three"
+        ]
+    },
+    {
+        "tittle": "Tic Tac Toe",
+        "subtittle": "El famoso tres en ralla ahora más estiloso",
+        "image": "/tictactoe_mockup.webp",
+        "icon": "PIconTictactoe",
+        "id": "tictactoe",
+        "description": "Large text",
+        "links": {
+            "code": "https://github.com/LidiaA3/tictactoe",
+            "demo": "https://lidiaa3tictactoe.netlify.app/"
+        },
+        "features": [
+            "One",
+            "Two",
+            "Three"
+        ]
+    },
+    {
+        "tittle": "To Do App",
+        "subtittle": "Organiza tus tareas",
+        "image": "/todoapp_mockup.webp",
+        "icon": "PIconTodoapp",
+        "id": "todoapp",
+        "description": "Large text",
+        "links": {
+            "code": "https://github.com/LidiaA3/todoapp_react",
+            "demo": "https://lidiaa3todoapp.netlify.app/"
+        },
+        "features": [
+            "One",
+            "Two",
+            "Three"
+        ]
+    },
+    {
+        "tittle": "Guess the Word",
+        "subtittle": "Adivina la palabra y no te quedes sin vidas",
+        "image": "/guessword_mockup.webp",
+        "icon": "PIconGuessword",
+        "id": "guessword",
+        "description": "Large text",
+        "links": {
+            "code": "https://github.com/LidiaA3/guessword",
+            "demo": "https://lidiaa3guessword.netlify.app/"
+        },
+        "features": [
+            "One",
+            "Two",
+            "Three"
+        ]
+    },
+    {
+        "tittle": "Login Shop",
+        "subtittle": "Diviértete comprando en esta falsa e-commerce",
+        "image": "/loginshop_mockup.webp",
+        "icon": "PIconLoginshop",
+        "id": "loginshop",
+        "description": "Large text",
+        "links": {
+            "code": "https://github.com/LidiaA3/login-shop",
+            "demo": "https://lidiaa3loginshop.netlify.app/"
         },
         "features": [
             "One",
