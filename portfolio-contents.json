@@ -1,0 +1,19 @@
+[
+    {
+        "tittle": "Título de proyecto",
+        "subtittle": "subtítulo llamativo de proyecto",
+        "image": "/rutaimagen.webp",
+        "icon": "PIconnombre",
+        "src": "nombre",
+        "description": "Large text",
+        "links": {
+            "code": "github link",
+            "demo": "netlify link"
+        },
+        "features": [
+            "One",
+            "Two",
+            "Three"
+        ]
+    }
+]
