@@ -3,6 +3,7 @@ import StyNav from "./StyNav"
 import Button from '../components/button/Button'
 import StyColorCard from './StyColorCard'
 import IconEmail from '../components/icons/IconEmail'
+import Accordion from '../components/accordion/Accordion'
 
 function Styleguide() {
 
@@ -131,6 +132,12 @@ function Styleguide() {
             <p>Parameters for buttons <code>text | icon | type | size | status | handleClick</code></p>
             <p>Parameters for links <code>text | icon | type | size | isLink | goTo</code></p>
           </section>
+        </article>
+
+        <article>
+          <Accordion />
+          <Accordion />
+          <Accordion />
         </article>
 
         <article id='grid'>
