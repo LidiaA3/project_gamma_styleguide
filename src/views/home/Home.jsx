@@ -36,7 +36,7 @@ function Home() {
             <h3>Proyectos frontend</h3>
             <div className="displayGrid">
               {projects.map((item) => {
-                return <Button isLink={true} goTo={`/proyect/${item.id}`} text={item.tittle.toLowerCase()} icon={item.icon} type='secondary' size='display' key={item.id} />
+                return <Button isLink={true} goTo={`/proyect/${item.id}`} text={item.tittle.toLowerCase()} icon={<item.icon/>} type='secondary' size='display' key={item.id} />
               })}
             </div>
           </section>
