@@ -2,6 +2,7 @@ import Button from "../../components/button/Button"
 import Header from "../../components/header/Header"
 import IconEmail from "../../components/icons/IconEmail"
 import Presentation from "../../components/presentation/Presentation"
+import {skills} from "../../../portfolio-contents"
 
 function About() {
 
@@ -16,10 +17,7 @@ function About() {
           </section>
 
           <section className="section displayGrid">
-            <p>Figma</p>
-            <p>Ilustrator</p>
-            <p>Photoshop</p>
-            <p>InDesign</p>
+            {skills.map((item) => <p>{item}</p>)}
           </section>
 
           <section className="section">

@@ -4,19 +4,10 @@ import Footer from "../../components/footer/Footer"
 import Firstsight from "../../components/firstsight/Firstsight"
 import IconMine from "../../components/icons/IconMine"
 import IconCreative from "../../components/icons/IconCreative"
-import PIconContactbook from "../../components/icons/PIconContactbook"
-import PIconRockpaperscissors from "../../components/icons/PIconRockpaperscissors"
-import PIconTictactoe from "../../components/icons/PIconTictactoe"
-import PIconTodoapp from "../../components/icons/PIconTodoapp"
-import PIconGuessword from "../../components/icons/PIconGuessword"
-import PIconLoginshop from "../../components/icons/PIconLoginshop"
-import { useContext } from "react"
-import { ContentsContext } from "../../App"
+import projects from "../../../portfolio-contents"
 
 
 function Home() {
-
-  const projects = useContext(ContentsContext).myprojects;
 
     return (
       <>
@@ -36,7 +27,7 @@ function Home() {
             <h3>Proyectos frontend</h3>
             <div className="displayGrid">
               {projects.map((item) => {
-                return <Button isLink={true} goTo={`/proyect/${item.id}`} text={item.tittle.toLowerCase()} icon={<item.icon/>} type='secondary' size='display' key={item.id} />
+                return <Button isLink={true} goTo={`/proyect/${item.id}`} text={item.tittle.toLowerCase()} icon={item.icon} type='secondary' size='display' key={item.id} />
               })}
             </div>
           </section>
