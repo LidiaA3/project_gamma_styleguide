@@ -29,7 +29,7 @@ function Proyect() {
         <section className="section">
           {projects.map((item) => {
             if(item.id !== id) {
-              return <Button isLink={true} goTo={`/proyect/${item.id}`} text={item.tittle.toLowerCase()} icon={item.icon} type='secondary' key={item.id} />
+              return <Button isLink={true} goTo={`/proyect/${item.id}`} text={item.tittle.toLowerCase()} icon={<item.icon/>} type='secondary' key={item.id} />
             }
           })}
         </section>
