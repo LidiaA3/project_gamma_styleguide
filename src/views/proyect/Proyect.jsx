@@ -1,3 +1,4 @@
+import "./Proyect.scss"
 import { useParams } from "react-router-dom";
 import Button from "../../components/button/Button";
 import Header from "../../components/header/Header";
@@ -13,12 +14,20 @@ function Proyect() {
       <>
       <Header />
       <main>
-        <h1>{thisProject.tittle}</h1>
-        <h2>{thisProject.subtittle}</h2>
-        <img src={thisProject.image} alt={thisProject.tittle} />
-        <p>{thisProject.description}</p>
-        <Button isLink={true} goTo={thisProject.links.code} text='code' type='secondary' />
-        <Button isLink={true} goTo={thisProject.links.demo} text='demo' type='primary' />
+        <section className="proyect">
+          <div className="proyect__img">
+            <img src={thisProject.image} alt={thisProject.tittle} />
+          </div>
+          <div className="proyect__contents">
+            <h1>{thisProject.tittle}</h1>
+            <h2>{thisProject.subtittle}</h2>
+            <p>{thisProject.description}</p>
+            <div className="proyect__buttons">
+              <Button isLink={true} goTo={thisProject.links.code} text='code' type='secondary' />
+              <Button isLink={true} goTo={thisProject.links.demo} text='demo' type='primary' />
+            </div>
+          </div>
+        </section>
 
         <section className="section">
           <h3>Funcionalidades</h3>
