@@ -1,0 +1,28 @@
+@import '../../scss/variables';
+
+.animationText {
+    font-family: $font-display;
+    animation: strokeText 5s infinite;
+    stroke-width: .2;
+    fill: var(--color-gray);
+    fill-opacity: .3;
+    stroke: var(--color-yellow_dark);
+    font-size: 3rem;
+}
+
+@keyframes strokeText {
+    0% {
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 20% 50%;
+    }
+
+    50% {
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 20%;
+    }
+
+    100% {
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 20% 50%;
+    }
+}

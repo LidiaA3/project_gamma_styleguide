@@ -8,15 +8,23 @@ import './Button.scss'
  */
 
 function Button(props) {
+
+    function handleLink () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        })
+    }
+
     return (
         <>
             {props.isLink ? 
-                <Link to={props.goTo} className={`btn linkAsBtn ${props.type === 'secondary' ? 'btn--secondary' : ''} ${props.size !== 'regular' ? `btn--${props.size}` : '' }`}>
+                <Link onClick={handleLink} to={props.goTo} className={`btn linkAsBtn ${props.optionalClasses} ${props.type === 'secondary' ? 'btn--secondary' : ''} ${props.size !== 'regular' ? `btn--${props.size}` : '' }`}>
                     {props.icon === '' ? '' : props.icon}
                     {props.text === '' ? '' : props.text}
                 </Link>
             :
-                <button onClick={props.handleClick} className={`btn ${props.type === 'secondary' ? 'btn--secondary' : ''} ${props.size !== 'regular' ? `btn--${props.size}` : '' }`} type="button" disabled={props.status === 'disable' ? true : false}>
+                <button onClick={props.handleClick} className={`btn ${props.optionalClasses} ${props.type === 'secondary' ? 'btn--secondary' : ''} ${props.size !== 'regular' ? `btn--${props.size}` : '' }`} type="button" disabled={props.status === 'disable' ? true : false}>
                     {props.icon === '' ? '' : props.icon}
                     {props.text === '' ? '' : props.text}
                 </button>

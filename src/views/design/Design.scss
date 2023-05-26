@@ -1,0 +1,15 @@
+.designWeb {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: .5em;
+    width: calc(100% - 4rem - 4rem);
+    text-align: center;
+    background-color: var(--color-gray_light);
+
+    &__btn {
+
+        &:hover {
+            background-color: var(--color-gray_lighter);
+        }
+    }
+}

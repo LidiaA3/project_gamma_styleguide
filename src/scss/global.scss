@@ -41,6 +41,8 @@ body {
     font-family: $font_main;
     font-size: fs(medium);
     color: var(--color-gray_darken);
+    scroll-behavior: smooth;
+    transition: all .5s ease-in-out;
 }
 
 main {
@@ -48,6 +50,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 3rem;
+    position: relative;
 }
 
 .section {
@@ -79,4 +82,17 @@ main {
     .displayGrid {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+.displayWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btnFixed {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
 }

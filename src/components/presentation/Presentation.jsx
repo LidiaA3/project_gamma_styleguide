@@ -1,3 +1,4 @@
+import Hexagon from '../hexagon/Hexagon';
 import './Presentation.scss'
 
 function Presentation () {
@@ -11,6 +12,7 @@ function Presentation () {
                 </div>
                 <div className="presentation__img">
                     <img src="/imagenpropia.webp" alt="Imagen personal de perfil" />
+                    <Hexagon />
                 </div>
             </section>
             <section className="presentation__claim">
