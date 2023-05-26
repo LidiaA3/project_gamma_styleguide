@@ -13,15 +13,14 @@ function Design() {
     return (
       <>
         <Header />
+        <section className="designWeb">
+          <AnimationText />
+          <Button optionalClasses='designWeb__btn' isLink={true} goTo='/styleguide' text='Ver la guía de estilo' icon={<IconStyle />} type='secondary' size='x-big' />
+        </section>
         <main>
           <div className="btnFixed">
             <Button isLink={true} goTo='/' text='volver' icon={<IconBack />} size='small' />
           </div>
-          <section className="designWeb">
-            <AnimationText />
-            <Button optionalClasses='designWeb__btn' isLink={true} goTo='/styleguide' text='Ver la guía de estilo' icon={<IconStyle />} type='secondary' size='x-big' />
-          </section>
-
           <section className="section">
             <h3>Diseño gráfico y maquetación</h3>
             <Gallery />
