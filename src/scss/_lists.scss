@@ -1,13 +1,11 @@
 .list {
     list-style: none;
     padding: 0;
-    margin: 0;
     
     &__item {
         display: flex;
+        gap: 1rem;
         margin-bottom: 1.5rem;
-        position: relative;
-        padding-left: 3rem;
 
         &:last-child {
             margin-bottom: 0;
@@ -15,11 +13,7 @@
 
         &::before {
             content: url(../components/icons/IconFeature.svg);
-            width: 2rem;
-            height: 2rem;
-            position: absolute;
-            top: 0;
-            left: 0;
+            flex: 0 0 2rem;
         }
     }
 }

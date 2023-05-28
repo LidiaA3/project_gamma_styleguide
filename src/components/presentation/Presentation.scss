@@ -21,6 +21,7 @@
     &__img {
         display: flex;
         position: relative;
+        overflow: hidden;
 
         & img {
             width: 100%;
