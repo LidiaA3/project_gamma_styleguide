@@ -96,3 +96,13 @@ main {
     top: 2rem;
     left: 2rem;
 }
+
+.main--margin {
+    padding-top: 3rem;
+}
+
+@media all and (min-width: 800px) {
+    .main--margin {
+        padding-top: 0;
+    }
+}

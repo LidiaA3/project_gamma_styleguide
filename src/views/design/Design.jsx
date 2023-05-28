@@ -17,7 +17,7 @@ function Design() {
           <AnimationText />
           <Button optionalClasses='designWeb__btn' isLink={true} goTo='/styleguide' text='Ver la guía de estilo' icon={<IconStyle />} type='secondary' size='x-big' />
         </section>
-        <main>
+        <main className="main--margin">
           <div className="btnFixed">
             <Button isLink={true} goTo='/' text='volver' icon={<IconBack />} size='small' />
           </div>

@@ -29,7 +29,7 @@ function Proyect() {
         </div>
       </section>
 
-      <main>
+      <main className="main--margin">
         <div className="btnFixed">
           <Button isLink={true} goTo='/' text='volver' icon={<IconBack />} size='small' />
         </div>

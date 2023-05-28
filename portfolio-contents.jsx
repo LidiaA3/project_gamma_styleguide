@@ -113,6 +113,6 @@ const projects = [
     }
 ]
 
-export const skills = ["Figma", "Ilustrator", "Photoshop", "InDesign", "HTML", "CSS", "Sass", "Netlify", "GitHub", "Git", "JavaScript", "Wordpress", "React", "Context API", "Components", "UX/UI"]
+export const skills = ["Figma", "Ilustrator", "Photoshop", "InDesign", "HTML", "CSS", "Sass", "Flexbox", "DOM", "Netlify", "GitHub", "Git", "JavaScript", "Wordpress", "React", "Hooks", "Context API", "UX/UI", "Design system", "Jira", "Metodología Agile"]
 
 export default projects
