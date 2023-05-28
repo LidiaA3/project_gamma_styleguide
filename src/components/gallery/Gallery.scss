@@ -1,22 +1,52 @@
+@import '../../scss/variables';
+
 .gallery {
     max-width: 60rem;
-    max-height: 60rem;
-    aspect-ratio: 1/1;
     border-radius: .5em;
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    position: relative;
 
     &__img {
         width: 100%;
         height: 100%;
+        aspect-ratio: 4/2;
         object-fit: cover;
+        cursor: pointer;
+    }
+}
 
-        &:hover {
-            transform: scale(115%);
-            animation: transform 1s ease-in-out;
-        }
+.expandGallery {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4/3;
+    border-radius: .5em;
+    overflow: hidden;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__btn {
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+        font-size: 5rem;
+        cursor: pointer;
+        color: var(--color-gray_dark);
+    }
+
+    &__text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: 1rem 1.5rem;
+        color: var(--color-gray_lighter);
+        background-color: transparentize(hsl($gray_dark), 0.5);
+        width: calc(100% - 3rem);
     }
 }
