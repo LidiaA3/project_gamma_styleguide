@@ -16,7 +16,7 @@ function Proyect() {
       <Header />
       <section className="proyect">
         <div className="proyect__img">
-          <img src='http://via.placeholder.com/600x400' alt={thisProject.tittle} />
+          <img src={thisProject.image} alt={thisProject.tittle} />
         </div>
         <div className="proyect__contents">
           <h1 className="proyect__tittle">{thisProject.tittle}</h1>

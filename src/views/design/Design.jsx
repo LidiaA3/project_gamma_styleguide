@@ -25,9 +25,9 @@ function Design() {
 
           <section className="section">
             <h3>Diseño de tarjetas con efecto de ratón</h3>
-            <CardEffect />
             <h4>EFECTO DE PERSPECTIVA</h4>
             <p>Diseño de tarjetas con efecto de perspectiva que se anima la hacer hover sobre ellas. No dudes en pasar el ratón por encima o clicar sobre ellas si estás usando un dispositivo táctil.</p>
+            <CardEffect />
           </section>
           <section className="section">
             <h3>Diseño gráfico y maquetación</h3>

@@ -33,7 +33,7 @@ function Home() {
           </section>
           <section className="section">
             <h3>También diseño</h3>
-            <p>También soy diseñadora y como tal tengo proyectos más creativos donde no existe código. Si quieres ver proyectos más creativos puedes acceder a la sección de diseño pulsando en el siguiente botón.</p>
+            <p>También soy diseñadora y como tal tengo proyectos más creativos donde el código no es tán importante. Si quieres ver proyectos más creativos puedes acceder a la sección de diseño pulsando en el siguiente botón.</p>
             <div className="section section--right">
               <Button isLink={true} goTo='/design' text='Ver diseños' icon={<IconCreative />} />
             </div>

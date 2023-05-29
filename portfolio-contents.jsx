@@ -115,4 +115,16 @@ const projects = [
 
 export const skills = ["Figma", "Ilustrator", "Photoshop", "InDesign", "HTML", "CSS", "Sass", "Flexbox", "DOM", "Netlify", "GitHub", "Git", "JavaScript", "Wordpress", "React", "Hooks", "Context API", "UX/UI", "Design system", "Jira", "Metodología Agile"]
 
+export const galleryImgs = [
+    {src: '/diseño_de_carteles.webp', text: 'Diseño de carteles estilo póster'},
+    {src: '/diseño_producto_pendientes.webp', text: 'Diseño de colección de pendientes'},
+    {src: '/diseño_textil_sobre_revista.webp', text: 'Diseño de interior de revista con productos de textil'},
+    {src: '/diseño_reportaje_de_revista_2.webp', text: 'Diseño de interior de revista con reportaje'},
+    {src: '/diseño_reportaje_de_revista.webp', text: 'Diseño de interior de revista con reportaje'},
+    {src: '/diseño_portada_libro_2.webp', text: 'Diseño de portada para la novela El secreto de Amanda Soler'},
+    {src: '/diseño_portada_libro_1.webp', text: 'Diseño de portada para la novela El legado de las campanas'},
+    {src: '/diseño_portada_de_revista.webp', text: 'Diseño de portada de revista parteindo de un lettering'},
+    {src: '/diseño_de_web_musical.webp', text: 'Diseño de web con temática musical'}
+]
+
 export default projects
