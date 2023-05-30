@@ -13,7 +13,7 @@
         aspect-ratio: 3/5;
         perspective: 90rem;
         transform: rotateX(60deg) scale(0.7);
-        animation: transform 2s ease-in-out;
+        transition: all .5s ease-in-out;
         cursor: pointer;
         border-radius: .5rem;
         overflow: hidden;

@@ -135,9 +135,17 @@ function Styleguide() {
         </article>
 
         <article>
-          <Accordion />
-          <Accordion />
-          <Accordion />
+          <Accordion tittle='Accordion component tittle with image' img='http://via.placeholder.com/400x300' text='Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis ante sollicitudin habitasse ligula morbi dictumst, litora nisl sapien semper tortor ridiculus fusce blandit class mus maecenas venenatis nascetur. Rhoncus metus eget purus ridiculus pulvinar dictumst ut per erat penatibus aenean, tempor fusce nam sapien himenaeos donec fringilla in interdum facilisi, lacus lobortis semper suspendisse inceptos nisl laoreet dictum vel phasellus.' />
+          <Accordion tittle='Accordion component tittle' text='Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis ante sollicitudin habitasse ligula morbi dictumst, litora nisl sapien semper tortor ridiculus fusce blandit class mus maecenas venenatis nascetur. Rhoncus metus eget purus ridiculus pulvinar dictumst ut per erat penatibus aenean, tempor fusce nam sapien himenaeos donec fringilla in interdum facilisi, lacus lobortis semper suspendisse inceptos nisl laoreet dictum vel phasellus.' />
+          <Accordion tittle='Accordion component tittle' text='Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis ante sollicitudin habitasse ligula morbi dictumst, litora nisl sapien semper tortor ridiculus fusce blandit class mus maecenas venenatis nascetur. Rhoncus metus eget purus ridiculus pulvinar dictumst ut per erat penatibus aenean, tempor fusce nam sapien himenaeos donec fringilla in interdum facilisi, lacus lobortis semper suspendisse inceptos nisl laoreet dictum vel phasellus.' />
+        </article>
+
+        <article id="form">
+          <h3>Form assets</h3>
+          <input type="text" />
+          <input type="button" />
+          <input type="checkbox" />
+          <input type="radio" />
         </article>
 
         <article id='grid'>

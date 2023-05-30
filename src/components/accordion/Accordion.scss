@@ -3,8 +3,8 @@
 
 details {
     padding: 1.5rem 2rem;
-    border-top: .1em solid var(--color-burdeos);
-    border-bottom: .1em solid var(--color-burdeos);
+    border-top: .1em solid var(--color-cadet_blue_lighter);
+    border-bottom: .1em solid var(--color-cadet_blue_lighter);
 
   
   & + & {
@@ -18,12 +18,12 @@ summary {
     font-size: fs(big);
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
     align-items: center;
 
     &:after {
         content: url(../icons/IconPlus.svg);
-        width: 3.2rem;
-        height: 3.2rem;
+        flex: 0 0 3.2rem;
     }
 }
 
@@ -36,4 +36,24 @@ details[open] summary {
 
 .accordion__section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    & img {
+        width: 100%;
+        max-width: 40rem;
+        max-height: 30rem;
+        object-fit: cover;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .accordion__section {
+        flex-direction: row;
+
+        & img {
+            width: 40%;
+        }
+    }
 }

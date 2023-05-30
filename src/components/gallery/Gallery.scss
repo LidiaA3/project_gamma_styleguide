@@ -1,4 +1,5 @@
 @import '../../scss/variables';
+@import '../../scss/functions';
 
 .gallery {
     max-width: 60rem;
@@ -6,14 +7,19 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    transition: all .5s ease-in-out;
     gap: 1rem;
 
     &__img {
         width: 100%;
         height: 100%;
-        aspect-ratio: 4/2;
+        aspect-ratio: 4/3;
         object-fit: cover;
         cursor: pointer;
+
+        &:hover {
+            transform: scale(0.9);
+        }
     }
 }
 
@@ -32,9 +38,9 @@
 
     &__btn {
         position: absolute;
-        top: 1rem;
+        top: .5rem;
         right: 1.5rem;
-        font-size: 5rem;
+        font-size: fs(huge);
         cursor: pointer;
         color: var(--color-gray_dark);
     }

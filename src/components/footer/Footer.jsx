@@ -9,9 +9,9 @@ function Footer() {
         <>
             <footer className="footer">
                 <section className="footer__rrss">
-                    <IconCodepen />
-                    <IconTwitter />
-                    <IconGithub />
+                    <a className='color-gray_lighter' href="https://codepen.io/LidiaA3"><IconCodepen /></a>
+                    <a className='color-gray_lighter' href="https://twitter.com/lidiaA3_99"><IconTwitter /></a>
+                    <a className='color-gray_lighter' href="https://github.com/LidiaA3"><IconGithub /></a>
                 </section>
                 <a href="mailto:lidiaaullana@gmail.com">lidiaaullana@gmail.com</a>
                 <p className='footer__copy'><IconCopy /> Lidia Aullana</p>

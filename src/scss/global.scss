@@ -32,6 +32,10 @@
     --color-cadet_blue_lighter: hsl(#{$cadet_blue_lighter});
 }
 
+::selection {
+    background-color: var(--color-yellow_lighter);
+}
+
 html {
     font-size: 62.5%
 }
