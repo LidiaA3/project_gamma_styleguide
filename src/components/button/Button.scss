@@ -60,6 +60,7 @@ button,
         &:hover {
             border-color: var(--color-yellow_dark);
             background-color: transparent;
+            color: var(--color-yellow_dark);
         }
         
         &.linkAsBtn:hover {

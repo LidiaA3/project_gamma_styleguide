@@ -43,7 +43,7 @@ code {
     font-size: fs(medium);
     font-family: $font_mono;
     padding: 0 .5rem;
-    border: .05em solid var(--color-gray);
+    border: none;
     border-radius: .2em;
     word-wrap: break-word;
 }
