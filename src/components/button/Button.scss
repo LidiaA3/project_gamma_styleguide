@@ -36,7 +36,8 @@ button,
 }
 
 .btn {
-    &--secondary {
+    &--secondary,
+    &--ternary {
         color: var(--color-burdeos);
         border-color: var(--color-burdeos);
         background-color: transparent;
@@ -49,6 +50,20 @@ button,
             border-color: var(--color-gray_light);
             background-color: transparent;
             color: var(--color-gray_light);
+        }
+    }
+
+    &--ternary {
+        color: var(--color-gray_dark);
+        border-color: var(--color-gray_dark);
+
+        &:hover {
+            border-color: var(--color-yellow_dark);
+            background-color: transparent;
+        }
+        
+        &.linkAsBtn:hover {
+            color: var(--color-yellow_dark);
         }
     }
 

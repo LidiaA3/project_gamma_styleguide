@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import './Gallery.scss';
-import { galleryImgs } from '../../../portfolio-contents';
 
-function Gallery () {
+function Gallery (props) {
 
     const [srcImg, setSrcImg] = useState('');
     const [textImg, setTextImg] = useState('');
@@ -17,7 +16,7 @@ function Gallery () {
     return (
         <>
         <div className="gallery">
-            {galleryImgs.map((item) => {
+            {props.galleryImgs.map((item) => {
                 return <img className='gallery__img' onClick={() => expandImg(item)} src={item.src} alt={item.text} />
             })}
         </div>

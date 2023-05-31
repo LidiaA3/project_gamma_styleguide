@@ -12,15 +12,16 @@ const projects = [
         "image": "/contactbook_mockup.webp",
         "icon": <PIconContactbook />,
         "id": "contactbook",
-        "description": "Una aplicación web sencilla y práctica que te permite mantener un registro organizado de tus contactos. Con una interfaz intuitiva y amigable, podrás acceder fácilmente a un listado completo de usuarios y explorar sus detalles de contacto de manera eficiente. Además, cuenta con una función de búsqueda que te permite encontrar rápidamente la información que necesitas. Podrás mantener tus contactos organizados de manera eficiente y acceder a la información necesaria con facilidad. Tanto si estás buscando los datos de contacto de un amigo, un colega o un familiar, esta aplicación te proporcionará una solución práctica y rápida para administrar tus contactos de manera efectiva.",
+        "description": `Una aplicación web sencilla y práctica que te permite mantener un registro organizado de tus contactos. Con una interfaz intuitiva y amigable, podrás acceder fácilmente a un listado completo de usuarios y explorar sus detalles de contacto de manera eficiente. Además, cuenta con una función de búsqueda que te permite encontrar rápidamente la información que necesitas. Esta app está generada a partir de una API de contactos pública que devuelve un gran número de usuarios.`,
         "links": {
             "code": "https://github.com/LidiaA3/contact_book",
             "demo": "https://lidiaa3contactbook.netlify.app/"
         },
         "features": [
             "Lista clara y ordenada de contactos: Cada contacto se muestra con su nombre y una pequeña imagen, lo que te permite identificarlos rápidamente. La navegación suave te permite desplazarte hacia arriba y hacia abajo por la lista sin problemas.",
-            "Páginas individuales con información detallada: Al hacer clic en un contacto en particular, se abrirá una página dedicada que muestra información detallada sobre esa persona. Podrás ver su nombre completo, número de teléfono, dirección de correo electrónico y cualquier otra información relevante que hayas registrado. También se mostrará una imagen más grande del contacto para facilitar su reconocimiento.",
-            "Funcionalidad de búsqueda rápida: Si necesitas encontrar un contacto específico, simplemente ingresa su nombre u otro detalle en el campo de búsqueda. La aplicación filtrará automáticamente los resultados relevantes, permitiéndote acceder rápidamente a la información que necesitas sin tener que desplazarte manualmente por toda la lista."
+            "Páginas individuales con información detallada: Al hacer clic en un contacto en particular, se abrirá una página dedicada que muestra información detallada sobre esa persona. Podrás ver su nombre completo, número de teléfono, dirección de correo electrónico y cualquier otra información relevante. También se mostrará una imagen más grande del contacto para facilitar su reconocimiento.",
+            "Funcionalidad de búsqueda rápida: Si necesitas encontrar un contacto específico, simplemente ingresa su nombre o apellido en el campo de búsqueda. La aplicación filtrará automáticamente los resultados relevantes, permitiéndote acceder rápidamente a la información que necesitas sin tener que desplazarte manualmente por toda la lista.",
+            "La web está generada a partir de una API, está creada en su totalidad con React y utiliza parámetros de ruta para crear cada una de las páginas de usuario."
         ]
     },
     {
@@ -29,7 +30,7 @@ const projects = [
         "image": "/rockpaperscissors_mockup.webp",
         "icon": <PIconRockpaperscissors />,
         "id": "rockpaperscissors",
-        "description": "El juego de 'Rock Paper Scissors' es una emocionante aplicación que te permite disfrutar del clásico juego de manos en tu dispositivo. Enfréntate a la inteligencia artificial en apasionantes partidas de piedra, papel o tijeras. Elige tu movimiento estratégicamente y demuestra tus habilidades para anticipar y vencer a tus oponentes en este divertido y adictivo juego. Sumérgete en la diversión del juego de 'Rock Paper Scissors' con esta aplicación digital, donde podrás poner a prueba tu estrategia y capacidad de anticipación. ¡Demuestra quién es el campeón en esta batalla de movimientos!",
+        "description": "El juego de 'Rock Paper Scissors' es una emocionante aplicación que te permite disfrutar del clásico juego de manos en tu dispositivo. Enfréntate a la inteligencia artificial en apasionantes partidas de piedra, papel o tijeras. Elige tu movimiento estratégicamente e intenta vencer a tu oponente en este divertido y adictivo juego. Sumérgete en la diversión del juego de 'Rock Paper Scissors' con esta aplicación digital creada en su totalidad con React",
         "links": {
             "code": "https://github.com/LidiaA3/rockpaperscissors",
             "demo": "https://lidiaa3rockpaperscissors.netlify.app/"
@@ -37,7 +38,8 @@ const projects = [
         "features": [
             "Juego de 'Rock Paper Scissors': Disfruta de emocionantes partidas de piedra, papel o tijeras directamente en tu dispositivo con un diseño responsive.",
             "Interfaz intuitiva: La aplicación cuenta con una interfaz sencilla y fácil de usar, con opciones claras para seleccionar tu movimiento (piedra, papel o tijeras) con un solo toque.",
-            "Resultados y puntuaciones: Sigue el registro de tus victorias y derrotas y superarte en cada partida."
+            "Resultados y puntuaciones: Sigue el registro de tus victorias y derrotas para superarte en cada partida.",
+            "App creada en su totalidad con React con lógica propia de JavaScript."
         ]
     },
     {
@@ -54,7 +56,8 @@ const projects = [
         "features": [
             "Juego de Tic Tac Toe: Disfruta de partidas de Tic Tac Toe en cualquier dispositivo, con un diseño responsive.",
             "Interfaz intuitiva: La aplicación presenta una interfaz sencilla y fácil de entender, con un tablero claro y botones para colocar tus movimientos.",
-            "Marcador y reinicio: Sigue el historial de tus partidas y reinicia el juego fácilmente para continuar desafiando a tus oponentes."
+            "Gestión de moviminetos: Sigue el historial de tus partidas pudiendo retroceder o avanzar en los movimientos.",
+            "Fin de juego y reinicio: Cuando se completa una partida, aparecerá un popup con el jugador ganador y un botón con el que reiniciar el juego fácilmente para continuar desafiando a tus oponentes."
         ]
     },
     {
@@ -113,7 +116,7 @@ const projects = [
     }
 ]
 
-export const skills = ["Figma", "Ilustrator", "Photoshop", "InDesign", "HTML", "CSS", "Sass", "Flexbox", "DOM", "Netlify", "GitHub", "Git", "JavaScript", "Wordpress", "React", "Hooks", "Context API", "UX/UI", "Design system", "Jira", "Metodología Agile"]
+export const skills = ["Figma", "Ilustrator", "Photoshop", "After Effects", "InDesign", "HTML", "CSS", "Sass", "Flexbox", "DOM", "Netlify", "GitHub", "Git", "JavaScript", "Wordpress", "Basic PHP", "React", "Vite", "Hooks", "Context API", "UX/UI", "Design system", "Jira", "Metodología Agile"]
 
 export const galleryImgs = [
     {src: '/diseño_de_carteles.webp', text: 'Diseño de carteles estilo póster'},
@@ -125,6 +128,14 @@ export const galleryImgs = [
     {src: '/diseño_portada_libro_1.webp', text: 'Diseño de portada para la novela El legado de las campanas'},
     {src: '/diseño_portada_de_revista.webp', text: 'Diseño de portada de revista parteindo de un lettering'},
     {src: '/diseño_de_web_musical.webp', text: 'Diseño de web con temática musical'}
+]
+
+export const accordionGallery = [
+    {src: '/detail_project_magazine.webp', tittle: 'Proyecto de diseño de revista', text: 'Lettering edicion fotos maquetación y composición'},
+    {src: '/detail_project_postermuvim.webp', tittle: 'Diseño de carteles experimentación tipográfica', text: 'Trabajo presentado en muvim'},
+    {src: '/detail_project_bookcover.webp', tittle: 'Diseño de portadas de libro', text: 'Explicación de proyecto'},
+    {src: '/detail_project_webmusical.webp', tittle: 'Diseño y maquetación de web musical', text: 'Explicación de proyecto y link a demo'},
+    {src: '/detail_project_coleccionpendientes.webp', tittle: 'Diseño de colección de pendientes', text: 'Explicación de proyecto TFG y link a web demo'}
 ]
 
 export default projects

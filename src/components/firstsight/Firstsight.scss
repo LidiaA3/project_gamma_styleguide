@@ -6,6 +6,7 @@
     border-radius: .5em;
     padding: 5rem 3rem;
     display: flex;
+    align-items: center;
     flex-direction: column;
     text-align: center;
     width: 100%;
@@ -14,6 +15,8 @@
     &__tittle {
         color: var(--color-gray_lighter);
         font-size: fs(x-big);
+        line-height: 1.3em;
+        max-width: 60rem;
     }
 
     &__subtittle {

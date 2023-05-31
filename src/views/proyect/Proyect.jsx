@@ -13,6 +13,9 @@ function Proyect() {
 
     return (
       <>
+      <div className="btnFixed">
+        <Button isLink={true} goTo='/' text='volver' icon={<IconBack />} size='small' type='ternary' />
+      </div>
       <Header />
       <section className="proyect">
         <div className="proyect__img">
@@ -29,10 +32,7 @@ function Proyect() {
         </div>
       </section>
 
-      <main className="main--margin">
-        <div className="btnFixed">
-          <Button isLink={true} goTo='/' text='volver' icon={<IconBack />} size='small' />
-        </div>
+      <main>
         <section className="section">
           <h3>Funcionalidades</h3>
           <ul className="list">

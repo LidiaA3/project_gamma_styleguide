@@ -16,7 +16,7 @@ function Presentation () {
                 </div>
             </section>
             <section className="presentation__claim">
-                <p className='presentation__text'>Soy una persona muy trabajadora y creativa. Me gusta formarme y aprender cosas nuevas. Tengo una gran capacidad de aprendizaje. Además, soy muy organizada y siempre trato de mantener ese orden en todo lo que hago.</p>
+                <p className='presentation__text p-big'>Soy una persona muy trabajadora y creativa. Me gusta formarme y aprender cosas nuevas. Tengo una gran capacidad de aprendizaje. Además, soy muy organizada y siempre trato de mantener ese orden en todo lo que hago.</p>
             </section>
         </>
     );
