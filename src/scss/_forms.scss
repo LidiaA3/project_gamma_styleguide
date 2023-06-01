@@ -1,6 +1,8 @@
 .inputgroup {
     display: inline-flex;
     padding: 8px;
+    flex-wrap: wrap;
+    gap: .5rem;
 }
 
 label {
@@ -99,5 +101,12 @@ progress[value] {
 
     &::-webkit-progress-value {
         background-color: var(--color-cadet_blue_lighter);
+    }
+}
+
+@media all and (max-width: 420px) {
+    [type='file'],
+    progress[value] {
+        max-width: 15rem;
     }
 }
