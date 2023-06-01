@@ -129,7 +129,7 @@ function Styleguide() {
               <Button text='Email' icon={<IconEmail/>} type='primary' size='small' status='disable' />
               <Button text='Email' icon={<IconEmail/>} type='secondary' size='small' status='disable' />
             </div>
-            <p>Links <code>isLink=true</code> for size <code>btn--$size</code> if secondary or ternary <code>type='secondary'|'ternary'</code> Target of link <code>target=''|'_blank'</code></p>
+            <p>Links <code>isLink=true</code> for size <code>size='$size'</code> if secondary or ternary <code>type='secondary'|'ternary'</code> Target of link <code>target=''|'_blank'</code></p>
             <div className="stySection__item">
               <Button isLink={true} text='Email link' icon={<IconEmail/>} type='primary' size='small' />
               <Button isLink={true} text='Email link' icon={<IconEmail/>} type='secondary' />

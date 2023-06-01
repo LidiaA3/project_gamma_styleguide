@@ -26,8 +26,8 @@ function Proyect() {
           <h2 className="proyect__subtittle">{thisProject.subtittle}</h2>
           <p>{thisProject.description}</p>
           <div className="proyect__buttons">
-            <Button isLink={true} goTo={thisProject.links.code} text='code' type='secondary' />
-            <Button isLink={true} goTo={thisProject.links.demo} text='demo' type='primary' />
+            <Button isLink={true} goTo={thisProject.links.code} text='code' type='secondary' target='_blank' />
+            <Button isLink={true} goTo={thisProject.links.demo} text='demo' type='primary' target='_blank' />
           </div>
         </div>
       </section>
