@@ -295,28 +295,51 @@ function Styleguide() {
 
             
           <h4>File inputs</h4>
-            <div className="inputgroup">
-                <label htmlFor="file">Enter a file:
-                <input type="file" name="" id="file" />
-                </label>
-            </div>
+          <div className="inputgroup">
+            <label htmlFor="file">Enter a file:
+              <input type="file" name="" id="file" />
+            </label>
+          </div>
 
 
           <h4>Button inputs</h4>
-            <div className="inputgroup">
-                <input className="btn" type="submit" defaultValue="submit" />
-                <input className="btn" type="button" defaultValue="button" />
-                <input className="btn" type="reset" defaultValue="reset" />
-                <input className="btn" type="image" id="image" alt="awesome" height="32px" src="icons/awesome.png" />
-            </div>
+          <div className="inputgroup">
+            <input className="btn" type="submit" defaultValue="submit" />
+            <input className="btn" type="button" defaultValue="button" />
+            <input className="btn" type="reset" defaultValue="reset" />
+            <input className="btn" type="image" id="image" alt="awesome" height="32px" src="icons/awesome.png" />
+          </div>
 
 
           <h4>Progress state</h4>
-            <div className="inputgroup">
-              <label htmlFor="state">Progress state:
-              <progress id="state" min="0" max="100" value="70" readOnly> 70% </progress>
-              </label>
-            </div>
+          <div className="inputgroup">
+            <label htmlFor="state">Progress state:
+            <progress id="state" min="0" max="100" value="70" readOnly> 70% </progress>
+            </label>
+          </div>
+        </article>
+
+        <article>
+          <h3>Tooltips</h3>
+          <div className="tooltip tooltip--top">
+            <p>Hover over me. I am place on the top.</p>
+            <span className="tooltiptext">This is what I do</span>
+          </div>
+
+          <div className="tooltip tooltip--right">
+            <p>Hover over me. I am place on the right.</p>
+            <span className="tooltiptext">This is what I do</span>
+          </div>
+
+          <div className="tooltip tooltip--bottom">
+            <p>Hover over me. I am place on the botton.</p>
+            <span className="tooltiptext">This is what I do</span>
+          </div>
+
+          <div className="tooltip tooltip--left">
+            <p>Hover over me. I am place on the left.</p>
+            <span className="tooltiptext">This is what I do</span>
+          </div>
         </article>
 
         <article id='grid'>
