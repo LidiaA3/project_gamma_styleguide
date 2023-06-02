@@ -3,7 +3,7 @@ import './Button.scss'
 
 /**
  * 
- * @param {text | icon | type | size | status | handleClick | isLink | goTo | target} props 
+ * @param {text | icon | type | size | status | handleClick | isLink | goTo | target | optionalClasses} props 
  * @returns 
  */
 

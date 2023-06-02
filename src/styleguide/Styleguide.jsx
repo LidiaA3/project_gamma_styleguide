@@ -5,6 +5,7 @@ import StyColorCard from './StyColorCard'
 import IconEmail from '../components/icons/IconEmail'
 import Accordion from '../components/accordion/Accordion'
 import IconHome from './icons/IconHome'
+import { Link } from 'react-router-dom'
 
 function Styleguide() {
 
@@ -96,7 +97,7 @@ function Styleguide() {
         <article id='buttons'>
           <h3>Buttons and Links</h3>
           <section className="stySection">
-            <p>General attributes <code>type=''|'secondary'|'ternary' status=''|'disable' isLink=true|false</code></p>
+            <p>General attributes <code>type=''|'secondary'|'ternary' status=''|'disable' isLink=true|false</code> For add extra classes <code>optionalClasses=''</code></p>
             <div className="stySection__item">
               <p>Others <code>size='x-big'</code></p>
               <Button text='Email' icon={<IconEmail/>} type='primary' size='x-big' />
@@ -135,16 +136,22 @@ function Styleguide() {
               <Button isLink={true} text='Email link' icon={<IconEmail/>} type='secondary' />
               <Button isLink={true} text='Email link' icon={<IconEmail/>} type='ternary' size='small' />
             </div>
-            <p>Parameters for buttons <code>text | icon | type | size | status | handleClick</code></p>
-            <p>Parameters for links <code>text | icon | type | size | isLink | goTo | target</code></p>
+            <p>Parameters for buttons <code>text | icon | type | size | status | handleClick | optionalClasses</code></p>
+            <p>Parameters for links as buttons <code>text | icon | type | size | isLink | goTo | target | optionalClasses</code></p>
+            <div className="stySection__item">
+              <Link>This is an example of link using Link component of React</Link><br />
+              <a href="">This is an other example using &lt;a&gt;&lt;/a&gt;</a>
+            </div>
           </section>
         </article>
 
         <article>
           <h4>Accordion component</h4>
           <code>&lt;Accordion/&gt; properties: tittle | img(optional) | text</code>
-          <Accordion tittle='Accordion component with image tittle' img='https://via.placeholder.com/400x300' text='Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis ante sollicitudin habitasse ligula morbi dictumst, litora nisl sapien semper tortor ridiculus fusce blandit class mus maecenas venenatis nascetur. Rhoncus metus eget purus ridiculus pulvinar dictumst ut per erat penatibus aenean, tempor fusce nam sapien himenaeos donec fringilla in interdum facilisi, lacus lobortis semper suspendisse inceptos nisl laoreet dictum vel phasellus.' />
-          <Accordion tittle='Accordion component without image tittle' text='Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis ante sollicitudin habitasse ligula morbi dictumst, litora nisl sapien semper tortor ridiculus fusce blandit class mus maecenas venenatis nascetur. Rhoncus metus eget purus ridiculus pulvinar dictumst ut per erat penatibus aenean, tempor fusce nam sapien himenaeos donec fringilla in interdum facilisi, lacus lobortis semper suspendisse inceptos nisl laoreet dictum vel phasellus.' />
+          <Accordion tittle='Accordion component with image' img='https://via.placeholder.com/400x300' text='Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis ante sollicitudin habitasse ligula morbi dictumst, litora nisl sapien semper tortor ridiculus fusce blandit class mus maecenas venenatis nascetur. Rhoncus metus eget purus ridiculus pulvinar dictumst ut per erat penatibus aenean, tempor fusce nam sapien himenaeos donec fringilla in interdum facilisi, lacus lobortis semper suspendisse inceptos nisl laoreet dictum vel phasellus.' />
+          <Accordion tittle='Accordion component without image' text='Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis ante sollicitudin habitasse ligula morbi dictumst, litora nisl sapien semper tortor ridiculus fusce blandit class mus maecenas venenatis nascetur. Rhoncus metus eget purus ridiculus pulvinar dictumst ut per erat penatibus aenean, tempor fusce nam sapien himenaeos donec fringilla in interdum facilisi, lacus lobortis semper suspendisse inceptos nisl laoreet dictum vel phasellus.' />
+          <Accordion tittle='Accordion component with image and link' url='https://google.es' urlText='Link to go Google' img='https://via.placeholder.com/400x300' text='Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis ante sollicitudin habitasse ligula morbi dictumst, litora nisl sapien semper tortor ridiculus fusce blandit class mus maecenas venenatis nascetur. Rhoncus metus eget purus ridiculus pulvinar dictumst ut per erat penatibus aenean, tempor fusce nam sapien himenaeos donec fringilla in interdum facilisi, lacus lobortis semper suspendisse inceptos nisl laoreet dictum vel phasellus.' />
+          <Accordion tittle='Accordion component without image but with link' url='https://google.es' urlText='Link to go Google' text='Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis ante sollicitudin habitasse ligula morbi dictumst, litora nisl sapien semper tortor ridiculus fusce blandit class mus maecenas venenatis nascetur. Rhoncus metus eget purus ridiculus pulvinar dictumst ut per erat penatibus aenean, tempor fusce nam sapien himenaeos donec fringilla in interdum facilisi, lacus lobortis semper suspendisse inceptos nisl laoreet dictum vel phasellus.' />
         </article>
 
         <article id="form">
@@ -270,8 +277,8 @@ function Styleguide() {
 
             <div className="inputgroup">
                 <label htmlFor="select">Select an option:
-                <select name="" id="select" defaultValue='1'>
-                    <option defaultValue='1' disabled>Select an option</option>
+                <select name="" id="select" defaultValue='Select an option'>
+                    <option defaultValue='' disabled>Select an option</option>
                     <optgroup label="Option 1:">
                         <option defaultValue=''>Option 1.1</option>
                         <option defaultValue=''>Option 1.2</option>

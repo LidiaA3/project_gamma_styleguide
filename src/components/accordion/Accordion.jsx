@@ -7,7 +7,7 @@ function Accordion (props) {
                 <summary>{props.tittle}</summary>
                 <div className="accordion__section">
                     {props.img && <img src={props.img} alt="" />}
-                    <p>{props.text}</p>
+                    <p>{props.text} {props.url && <a target='_blank' href={props.url}>{props.urlText}</a>}</p>
                 </div>
             </details>
         </>

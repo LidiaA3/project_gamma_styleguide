@@ -16,8 +16,8 @@ function Gallery (props) {
     return (
         <>
         <div className="gallery">
-            {props.galleryImgs.map((item) => {
-                return <img className='gallery__img' onClick={() => expandImg(item)} src={item.src} alt={item.text} />
+            {props.galleryImgs.map((item, index) => {
+                return <img key={index} className='gallery__img' onClick={() => expandImg(item)} src={item.src} alt={item.text} />
             })}
         </div>
         {showExpandGallery && <div className="expandGallery">

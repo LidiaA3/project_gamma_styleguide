@@ -35,7 +35,7 @@ function Design() {
             <Gallery galleryImgs={galleryImgs} />
             <hr />
             {accordionGallery.map((item) => {
-              return <Accordion img={item.src} tittle={item.tittle} text={item.text} />
+              return <Accordion key={item.tittle} img={item.src} tittle={item.tittle} text={item.text} url={item.url} urlText={item.urlText} />
             })}
           </section>
         </main>
