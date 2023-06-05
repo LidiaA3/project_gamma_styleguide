@@ -12,16 +12,16 @@ const projects = [
         "image": "/contactbook_mockup.webp",
         "icon": <PIconContactbook />,
         "id": "contactbook",
-        "description": `Una aplicación web sencilla y práctica que te permite mantener un registro organizado de tus contactos. Con una interfaz intuitiva y amigable, podrás acceder fácilmente a un listado completo de usuarios y explorar sus detalles de contacto de manera eficiente. Además, cuenta con una función de búsqueda que te permite encontrar rápidamente la información que necesitas. Esta app está generada a partir de una API de contactos pública que devuelve un gran número de usuarios.`,
+        "description": `Una aplicación web sencilla y práctica que te permite mantener un <span>registro organizado de tus contactos</span>. Con una <span>interfaz intuitiva y amigable</span>, podrás acceder fácilmente a un listado completo de usuarios y explorar sus detalles de contacto de manera eficiente. Además, cuenta con una <span>función de búsqueda</span> que te permite encontrar rápidamente la información que necesitas. Esta app está generada a partir de una <span>API</span> de contactos pública que devuelve un gran número de usuarios.`,
         "links": {
             "code": "https://github.com/LidiaA3/contact_book",
             "demo": "https://lidiaa3contactbook.netlify.app/"
         },
         "features": [
-            "Lista clara y ordenada de contactos: Cada contacto se muestra con su nombre y una pequeña imagen, lo que te permite identificarlos rápidamente. La navegación suave te permite desplazarte hacia arriba y hacia abajo por la lista sin problemas.",
-            "Páginas individuales con información detallada: Al hacer clic en un contacto en particular, se abrirá una página dedicada que muestra información detallada sobre esa persona. Podrás ver su nombre completo, número de teléfono, dirección de correo electrónico y cualquier otra información relevante. También se mostrará una imagen más grande del contacto para facilitar su reconocimiento.",
-            "Funcionalidad de búsqueda rápida: Si necesitas encontrar un contacto específico, simplemente ingresa su nombre o apellido en el campo de búsqueda. La aplicación filtrará automáticamente los resultados relevantes, permitiéndote acceder rápidamente a la información que necesitas sin tener que desplazarte manualmente por toda la lista.",
-            "La web está generada a partir de una API, está creada en su totalidad con React y utiliza parámetros de ruta para crear cada una de las páginas de usuario."
+            "<span>Lista clara y ordenada de contactos:</span> Cada contacto se muestra con su nombre y una pequeña imagen, lo que te permite identificarlos rápidamente. La navegación suave te permite desplazarte hacia arriba y hacia abajo por la lista sin problemas.",
+            "<span>Páginas individuales con información detallada:</span> Al hacer clic en un contacto en particular, se abrirá una página dedicada que muestra <span>información detallada sobre esa persona.</span> Podrás ver su nombre completo, número de teléfono, dirección de correo electrónico y cualquier otra información relevante. También se mostrará una imagen más grande del contacto para facilitar su reconocimiento.",
+            "<span>Funcionalidad de búsqueda rápida:</span> Si necesitas encontrar un contacto específico, simplemente ingresa su nombre o apellido en el campo de búsqueda. La aplicación <span>filtrará automáticamente los resultados</span> relevantes, permitiéndote acceder rápidamente a la información que necesitas sin tener que desplazarte manualmente por toda la lista.",
+            "La web está generada a partir de una <span>API</span>, está creada en su totalidad con <span>React</span> y utiliza <span>parámetros de ruta</span> para crear cada una de las páginas de usuario."
         ]
     },
     {
@@ -30,16 +30,16 @@ const projects = [
         "image": "/rockpaperscissors_mockup.webp",
         "icon": <PIconRockpaperscissors />,
         "id": "rockpaperscissors",
-        "description": "El juego de 'Rock Paper Scissors' es una emocionante aplicación que te permite disfrutar del clásico juego de manos en tu dispositivo. Enfréntate a la inteligencia artificial en apasionantes partidas de piedra, papel o tijeras. Elige tu movimiento estratégicamente e intenta vencer a tu oponente en este divertido y adictivo juego. Sumérgete en la diversión del juego de 'Rock Paper Scissors' con esta aplicación digital creada en su totalidad con React",
+        "description": "El juego de 'Rock Paper Scissors' es una emocionante aplicación que te permite disfrutar del <span>clásico juego de manos en tu dispositivo.</span> Enfréntate a la inteligencia artificial en apasionantes partidas de <span>piedra, papel o tijeras.</span> Elige tu movimiento estratégicamente e intenta vencer a tu oponente en este divertido y adictivo juego. Sumérgete en la diversión del juego de 'Rock Paper Scissors' con esta aplicación digital creada en su totalidad con <span>React.</span>",
         "links": {
             "code": "https://github.com/LidiaA3/rockpaperscissors",
             "demo": "https://lidiaa3rockpaperscissors.netlify.app/"
         },
         "features": [
-            "Juego de 'Rock Paper Scissors': Disfruta de emocionantes partidas de piedra, papel o tijeras directamente en tu dispositivo con un diseño responsive.",
-            "Interfaz intuitiva: La aplicación cuenta con una interfaz sencilla y fácil de usar, con opciones claras para seleccionar tu movimiento (piedra, papel o tijeras) con un solo toque.",
-            "Resultados y puntuaciones: Sigue el registro de tus victorias y derrotas para superarte en cada partida.",
-            "App creada en su totalidad con React con lógica propia de JavaScript."
+            "<span>Juego de 'Rock Paper Scissors':</span> Disfruta de emocionantes partidas de piedra, papel o tijeras directamente en tu dispositivo con un <span>diseño responsive.</span>",
+            "<span>Interfaz intuitiva:</span> La aplicación cuenta con una interfaz sencilla y fácil de usar, con <span>opciones claras para seleccionar tu movimiento</span> (piedra, papel o tijeras) con un solo toque.",
+            "<span>Resultados y puntuaciones:</span> Sigue el <span>registro de tus victorias y derrotas</span> para superarte en cada partida.",
+            "App creada en su totalidad con <span>React con lógica propia de JavaScript.</span>"
         ]
     },
     {
@@ -48,16 +48,16 @@ const projects = [
         "image": "/tictactoe_mockup.webp",
         "icon": <PIconTictactoe />,
         "id": "tictactoe",
-        "description": "La aplicación de Tic Tac Toe es una emocionante versión digital del clásico juego de tres en raya. Con una interfaz fácil de usar y divertidos gráficos, puedes desafiar a tus amigos en partidas rápidas y estratégicas. ¡Demuestra tu habilidad para colocar tus X y O en el tablero y lograr la línea ganadora! Disfruta de la emoción del Tic Tac Toe en esta aplicación digital, donde podrás poner a prueba tu estrategia y habilidades tácticas. ¡Demuestra quién es el mejor en este clásico juego de mesa!",
+        "description": "La aplicación de Tic Tac Toe es una emocionante versión digital del <span>clásico juego de tres en raya.</span> Con una <span>interfaz fácil de usar</span> y divertidos gráficos, puedes desafiar a tus amigos en partidas rápidas y estratégicas. ¡Demuestra tu habilidad para <span>colocar tus X y O en el tablero</span> y lograr la línea ganadora! Disfruta de la emoción del Tic Tac Toe en esta aplicación digital, donde podrás poner a prueba tu estrategia y habilidades tácticas. ¡Demuestra quién es el mejor en este clásico juego de mesa!",
         "links": {
             "code": "https://github.com/LidiaA3/tictactoe",
             "demo": "https://lidiaa3tictactoe.netlify.app/"
         },
         "features": [
-            "Juego de Tic Tac Toe: Disfruta de partidas de Tic Tac Toe en cualquier dispositivo, con un diseño responsive.",
-            "Interfaz intuitiva: La aplicación presenta una interfaz sencilla y fácil de entender, con un tablero claro y botones para colocar tus movimientos.",
-            "Gestión de moviminetos: Sigue el historial de tus partidas pudiendo retroceder o avanzar en los movimientos.",
-            "Fin de juego y reinicio: Cuando se completa una partida, aparecerá un popup con el jugador ganador y un botón con el que reiniciar el juego fácilmente para continuar desafiando a tus oponentes."
+            "<span>Juego de Tic Tac Toe:</span> Disfruta de partidas de Tic Tac Toe en cualquier dispositivo, con un <span>diseño responsive.</span>",
+            "<span>Interfaz intuitiva:</span> La aplicación presenta una <span>interfaz sencilla y fácil de entender</span>, con un tablero claro y botones para colocar tus movimientos.",
+            "<span>Gestión de moviminetos:</span> Sigue el historial de tus partidas pudiendo <span>retroceder o avanzar</span> en los movimientos.",
+            "<span>Fin de juego y reinicio:</span> Cuando se completa una partida, aparecerá un <span>popup con el jugador ganador y un botón con el que reiniciar</span> el juego fácilmente para continuar desafiando a tus oponentes."
         ]
     },
     {
@@ -66,15 +66,15 @@ const projects = [
         "image": "/todoapp_mockup.webp",
         "icon": <PIconTodoapp />,
         "id": "todoapp",
-        "description": "La aplicación de lista de tareas (To-Do App) es una herramienta práctica y eficiente para gestionar y organizar tus tareas diarias. Con una interfaz intuitiva y fácil de usar, puedes crear, priorizar y realizar un seguimiento de tus tareas pendientes de manera efectiva. Mantén tus actividades bajo control y aumenta tu productividad con esta aplicación versátil. Organiza tu vida diaria y optimiza tu tiempo con la aplicación de lista de tareas (To-Do App). No dejes que las tareas se te escapen y disfruta de la satisfacción de marcar tus tareas como completadas. ¡Aumenta tu eficiencia y logra tus objetivos con facilidad!",
+        "description": "La aplicación de lista de tareas (To-Do App) es una <span>herramienta práctica y eficiente</span> para gestionar y organizar tus tareas diarias. Con una <span>interfaz intuitiva y fácil de usar</span>, puedes crear, priorizar y realizar un seguimiento de tus tareas pendientes de manera efectiva. Mantén tus actividades bajo control y <span>aumenta tu productividad</span> con esta aplicación versátil. Organiza tu vida diaria y optimiza tu tiempo con la aplicación de lista de tareas (To-Do App). No dejes que las tareas se te escapen y disfruta de la satisfacción de <span>marcar tus tareas como completadas.</span> ¡Aumenta tu eficiencia y logra tus objetivos con facilidad!",
         "links": {
             "code": "https://github.com/LidiaA3/todoapp_react",
             "demo": "https://lidiaa3todoapp.netlify.app/"
         },
         "features": [
-            "Creación de tareas: Crea fácilmente nuevas tareas, asignándoles un título y una descripción.",
-            "Marcado y seguimiento de progreso: Marca las tareas completadas y realiza un seguimiento de tu progreso. Obtén una visión general de tus tareas pendientes y tareas completadas para evaluar tu productividad.",
-            "Eliminación de tareas: Elimina las tareas cuando ya no las necesites o cuando las hayas completado de forma sencilla con un solo click."
+            "<span>Creación de tareas:</span> Crea fácilmente nuevas tareas, asignándoles un título y una descripción.",
+            "<span>Marcado y seguimiento de progreso:</span> Marca las tareas completadas y realiza un seguimiento de tu progreso. Obtén una <span>visión general de tus tareas</span> pendientes y tareas completadas para evaluar tu productividad.",
+            "<span>Eliminación de tareas:</span> Elimina las tareas cuando ya no las necesites o cuando las hayas completado de forma sencilla <span>con un solo click.</span>"
         ]
     },
     {
@@ -83,17 +83,17 @@ const projects = [
         "image": "/guessword_mockup.webp",
         "icon": <PIconGuessword />,
         "id": "guessword",
-        "description": "El juego de 'Guess the word' es una emocionante aplicación en línea que te desafía a adivinar una palabra oculta antes de quedarte sin vidas. Cada palabra se presenta como una serie de guiones que representan las letras faltantes, y tu objetivo es adivinar las letras correctas para completar la palabra. Utiliza tu habilidad y conocimiento para adivinar la palabra antes de agotar todas tus vidas. ¡Sumérgete en la diversión del juego de 'Guess the word' en esta aplicación en línea! Pon a prueba tus habilidades de adivinanza y vocabulario mientras tratas de descubrir las palabras ocultas. ¿Estás listo para el desafío? Haz clic en el enlace y comienza a jugar ahora mismo.",
+        "description": "El juego de 'Guess the word' es una emocionante aplicación en línea que te desafía a <span>adivinar una palabra oculta antes de quedarte sin vidas.</span> Cada palabra se presenta como una serie de guiones que representan las letras faltantes, y tu <span>objetivo es adivinar las letras correctas</span> para completar la palabra. Utiliza tu habilidad y conocimiento para adivinar la palabra antes de agotar todas tus vidas. ¡Sumérgete en la diversión del <span>juego de 'Guess the word'</span> en esta aplicación en línea! Pon a prueba tus habilidades de adivinanza y vocabulario mientras tratas de descubrir las palabras ocultas. ¿Estás listo para el desafío? Haz clic en el enlace y <span>comienza a jugar</span> ahora mismo.",
         "links": {
             "code": "https://github.com/LidiaA3/guessword",
             "demo": "https://lidiaa3guessword.netlify.app/"
         },
         "features": [
-            "Adivinanza de palabras: El juego te presenta una palabra oculta representada por guiones que indican la cantidad de letras y su posición en la palabra.",
-            "Selección de letras: Puedes seleccionar letras del alfabeto para adivinar la palabra. Si la letra está presente en la palabra, se revelarán las posiciones correspondientes; de lo contrario, perderás una vida.",
-            "Vidas: Comienzas con un número determinado de vidas. Cada vez que adivines una letra incorrecta, perderás una vida. Trata de adivinar correctamente antes de quedarte sin vidas para ganar el juego.",
-            "Pop up de fin de partida: Al adivinar la palabra o al quedarte sin vidas, se mostrará un pop up con un texto que demuestra si has ganado o perdido (en este caso aparecerá la palabra que no adivinaste).",
-            "Restart the game: Podrás refrescar la web para volver a jugar con una nueva palabra."
+            "<span>Adivinanza de palabras:</span> El juego te presenta una <span>palabra oculta</span> representada por <span>guiones</span> que indican la cantidad de letras y su posición en la palabra.",
+            "<span>Selección de letras:</span> Puedes seleccionar letras del alfabeto para adivinar la palabra. Si la letra está presente en la palabra, <span>se revelarán las posiciones correspondientes</span>; de lo contrario, <span>perderás una vida</span>.",
+            "<span>Vidas:</span> Comienzas con un número determinado de vidas. Cada vez que adivines una <span>letra incorrecta, perderás una vida</span>. Trata de adivinar correctamente antes de quedarte sin vidas para ganar el juego.",
+            "<span>Pop up de fin de partida:</span> Al adivinar la palabra o al quedarte sin vidas, se mostrará un pop up con un texto que demuestra si <span>has ganado o perdido</span> (en este caso aparecerá la palabra que no adivinaste).",
+            "<span>Restart the game:</span> Podrás refrescar la web para volver a <span>jugar con una nueva palabra.</span>"
         ]
     },
     {
@@ -102,16 +102,16 @@ const projects = [
         "image": "/loginshop_mockup.webp",
         "icon": <PIconLoginshop />,
         "id": "loginshop",
-        "description": "La aplicación de 'False Login' es una herramienta de práctica diseñada para simular un inicio de sesión en una tienda en línea. Utilizando una API pública, la aplicación muestra una lista ficticia de productos disponibles para su visualización. Aunque el inicio de sesión utiliza un usuario y contraseña fijos, su objetivo es proporcionar una experiencia de usuario simulada para practicar el flujo de autenticación y la manipulación de datos de productos. Esta aplicación de 'False Login' con una lista de productos ficticios es una herramienta práctica para familiarizarse con el flujo de autenticación, la manipulación de datos de productos y la gestión del carrito de la compra en un contexto simulado.",
+        "description": "La aplicación de 'False Login' es una herramienta de práctica diseñada para <span>simular un inicio de sesión</span> en una tienda en línea. Utilizando una <span>API pública,</span> la aplicación muestra una lista ficticia de productos disponibles para su visualización. Aunque el inicio de sesión utiliza un <span>usuario y contraseña fijos,</span> su objetivo es proporcionar una experiencia de usuario simulada para practicar el flujo de autenticación y la manipulación de datos de productos. Esta aplicación de 'False Login' con una lista de productos ficticios es una herramienta práctica para <span>familiarizarse con el flujo de autenticación,</span> la manipulación de datos de productos y la <span>gestión del carrito de la compra</span> en un contexto simulado.",
         "links": {
             "code": "https://github.com/LidiaA3/login-shop",
             "demo": "https://lidiaa3loginshop.netlify.app/"
         },
         "features": [
-            "Autenticación: La aplicación presenta una interfaz de inicio de sesión donde los usuarios pueden ingresar un usuario y contraseña. Aunque siempre se utiliza el mismo conjunto de credenciales, el proceso de inicio de sesión se simula para familiarizarse con el flujo y la validación de credenciales.",
-            "Lista de productos: Una vez iniciada la sesión, la aplicación muestra una lista ficticia de productos obtenidos a través de una API pública. Los datos de los productos, como nombre, descripción y precio, se generan para simular una tienda en línea.",
-            "Gestión del carrito de la compra: Los usuarios pueden agregar productos ficticios al carrito de la compra. Aunque no hay una pasarela de pago real, esta funcionalidad permite simular la experiencia de agregar y eliminar productos, y practicar la manipulación de los elementos del carrito.",
-            "Navegación y experiencia del usuario: La aplicación ofrece una interfaz intuitiva y fácil de usar para que los usuarios naveguen por la lista de productos y realicen acciones en el carrito de la compra. Aunque no hay una funcionalidad de pago real, el objetivo es proporcionar una experiencia simulada de compra"
+            "<span>Autenticación:</span> La aplicación presenta una interfaz de inicio de sesión donde los usuarios pueden ingresar un usuario y contraseña. Aunque siempre se utiliza el mismo conjunto de credenciales, el <span>proceso de inicio de sesión se simula</span> para familiarizarse con el flujo y la validación de credenciales.",
+            "<span>Lista de productos:</span> Una vez iniciada la sesión, la aplicación muestra una <span>lista ficticia de productos obtenidos a través de una API pública.</span> Los datos de los productos, como nombre, descripción y precio, se generan para simular una tienda en línea.",
+            "<span>Gestión del carrito de la compra:</span> Los usuarios pueden agregar productos ficticios al carrito de la compra. Aunque no hay una pasarela de pago real, esta funcionalidad permite simular la <span>experiencia de agregar y eliminar productos,</span> y practicar la manipulación de los elementos del carrito.",
+            "<span>Navegación y experiencia del usuario:</span> La aplicación ofrece una <span>interfaz intuitiva y fácil de usar</span> para que los usuarios naveguen por la lista de productos y realicen acciones en el carrito de la compra. Aunque no hay una funcionalidad de pago real, el objetivo es proporcionar una <span>experiencia simulada de compra.</span>"
         ]
     }
 ]

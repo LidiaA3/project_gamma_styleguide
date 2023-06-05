@@ -24,7 +24,7 @@ function Proyect() {
         <div className="proyect__contents">
           <h1 className="proyect__tittle">{thisProject.tittle}</h1>
           <h2 className="proyect__subtittle">{thisProject.subtittle}</h2>
-          <p>{thisProject.description}</p>
+          <p dangerouslySetInnerHTML={{ __html: thisProject.description }}></p>
           <div className="proyect__buttons">
             <Button isLink={true} goTo={thisProject.links.code} text='code' type='secondary' target='_blank' />
             <Button isLink={true} goTo={thisProject.links.demo} text='demo' type='primary' target='_blank' />
@@ -37,7 +37,7 @@ function Proyect() {
           <h3>Funcionalidades</h3>
           <ul className="list">
             {thisProject.features.map((item) => {
-              return <li key={item} className="list__item">{item}</li>
+              return <li key={item} className="list__item"><div dangerouslySetInnerHTML={{ __html: item }}></div></li>
             })}
           </ul>
         </section>
